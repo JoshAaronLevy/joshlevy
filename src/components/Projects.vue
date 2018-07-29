@@ -11,13 +11,13 @@
     <template slot="row-details" slot-scope="row">
       <b-card>
         <b-row class="mb-2">
-          <b-col sm="3" class="text-sm-right"><b>Age:</b></b-col>
-          <b-col>{{ row.item.age }}</b-col>
+          <!-- <b-col sm="3" class="text-sm-right"><b>Built With:</b></b-col> -->
+          <b-col>{{ row.item.languages }}</b-col>
         </b-row>
-        <b-row class="mb-2">
+        <!-- <b-row class="mb-2">
           <b-col sm="3" class="text-sm-right"><b>Is Active:</b></b-col>
           <b-col>{{ row.item.isActive }}</b-col>
-        </b-row>
+        </b-row> -->
       </b-card>
     </template>
   </b-table>
@@ -33,22 +33,23 @@ export default {
         {
           isActive: true,
           age: 40,
-          project: "Josh Levy Portfolio"
+          project: "Josh Levy Portfolio",
+          languages: ["Vue", "PostgreSQL"]
         },
         {
           isActive: false,
           age: 21,
-          project: "Title One"
+          project: "Bad Movie Night"
         },
         {
           isActive: false,
           age: 89,
-          project: "Basic Website"
+          project: "Dino Jobs"
         },
         {
           isActive: true,
           age: 38,
-          project: "Carney"
+          project: "Auth Playground"
         }
       ]
     };

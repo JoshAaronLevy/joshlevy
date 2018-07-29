@@ -5,9 +5,10 @@
     <b-collapse is-nav id="nav_dropdown_collapse">
       <b-navbar-nav>
         <div class="logo">
-          <font-awesome-icon icon="less-than" />
+          <img src="../assets/logo.png">
+          <!-- <font-awesome-icon icon="less-than" />
           <a href="/index.html" class="h1 mb-0">jL</a>
-          <font-awesome-icon icon="greater-than" />
+          <font-awesome-icon icon="greater-than" /> -->
         </div>
         <b-nav-item href="#">Home</b-nav-item>
         <b-nav-item href="#">Link</b-nav-item>
