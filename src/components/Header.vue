@@ -18,6 +18,7 @@
         </b-nav-item-dropdown>
         <b-nav-item href="#">Projects</b-nav-item>
         <b-nav-item href="#">Work History</b-nav-item>
+        <b-nav-item href="#">Education</b-nav-item>
         <b-nav-item href="#">Resume</b-nav-item>
       <a
           href="https://github.com/JoshAaronLevy/portfolio"
