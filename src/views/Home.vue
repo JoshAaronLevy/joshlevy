@@ -2,7 +2,15 @@
   <div class="home">
     <Header/>
     <Hero/>
-    <Projects/>
+    <!-- <h2>Projects</h2>
+    <Projects/> -->
+    <!-- <h2>Skills</h2>
+    <h3>Technical Skills</h3>
+    <h3>Soft Skills</h3> -->
+    <h2 class="section-heading">Employment History</h2>
+    <EmploymentHistory/>
+    <!-- <h2>Education</h2> -->
+    <!-- <h2>Volunteer Work</h2> -->
     <Footer />
   </div>
 </template>
@@ -13,6 +21,7 @@
 import Header from "@/components/Header.vue";
 import Hero from "@/components/Hero.vue";
 import Projects from "@/components/Projects.vue";
+import EmploymentHistory from "@/components/EmploymentHistory.vue";
 import Footer from "@/components/Footer.vue";
 
 export default {
@@ -21,7 +30,14 @@ export default {
     Header,
     Hero,
     Projects,
+    EmploymentHistory,
     Footer
   }
 };
 </script>
+
+<style scoped>
+.section-heading {
+  text-align: center;
+}
+</style>
