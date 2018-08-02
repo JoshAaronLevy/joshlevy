@@ -1,17 +1,14 @@
 <template>
   <b-table :items="items" :fields="fields">
     <template slot="languages" slot-scope="row">
-      <!-- we use @click.stop here to prevent emitting of a 'row-clicked' event  -->
       <b-button size="sm" @click.stop="row.toggleDetails" class="mr-2 btn-success">
        {{ row.detailsShowing ? 'Hide' : 'View'}} Languages
       </b-button>
-      <!-- In some circumstances you may need to use @click.native.stop instead -->
-      <!-- As `row.showDetails` is one-way, we call the toggleDetails function on @change -->
     </template>
     <template slot="row-details" slot-scope="row">
       <b-card>
         <b-row class="mb-2">
-          <!-- <b-col sm="3" class="text-sm-right"><b>Built With:</b></b-col> -->
+          <b-col sm="3" class="text-sm-right"><b>Built With:</b></b-col>
           <b-col>{{ row.item.languages }}</b-col>
         </b-row>
         <!-- <b-row class="mb-2">

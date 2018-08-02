@@ -3,13 +3,13 @@
     <section class="hero-designer col-xs-6 col-lg-6">
       <div class="hero-inner">
         <h1 class="animate fadeInLeft">Designer</h1>
-        <h2>HTML5/CSS3</h2>
+        <h2>React/Vue.js/Angular</h2>
       </div>
     </section>
     <section class="hero-developer col-xs-6 col-lg-6">
       <div class="hero-inner">
         <h1 class="animate fadeInRight">Developer</h1>
-        <h2>JavaScript</h2>
+        <h2>JavaScript/NodeJS/SQL</h2>
       </div>
     </section>
   </section>

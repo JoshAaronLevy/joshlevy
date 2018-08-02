@@ -2,16 +2,19 @@
   <div class="home">
     <Header/>
     <Hero/>
+    <h2 id="aboutMe" class="section-heading">About Me</h2>
+    <!-- <AboutMe/> -->
+    <h2 id="skills" class="section-heading">Skills</h2>
+    <!-- <h3>Technical Skills</h3> -->
+    <!-- <h3>Soft Skills</h3> -->
     <!-- <h2>Projects</h2>
     <Projects/> -->
-    <!-- <h2>Skills</h2>
-    <h3>Technical Skills</h3>
-    <h3>Soft Skills</h3> -->
-    <h2 class="section-heading">Employment History</h2>
+    <h2 id="workHistory" class="section-heading">Employment History</h2>
     <EmploymentHistory/>
-    <h2 class="section-heading">Education</h2>
+    <h2 id="education" class="section-heading">Education</h2>
     <Education/>
     <!-- <h2>Volunteer Work</h2> -->
+    <h2 id="resume" class="section-heading">Resume</h2>
     <Footer />
   </div>
 </template>

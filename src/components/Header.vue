@@ -5,21 +5,23 @@
     <b-collapse is-nav id="nav_dropdown_collapse">
       <b-navbar-nav>
         <div class="logo">
-          <img src="../assets/logo.png">
+          <img src="../assets/logo.png" href="/">
           <!-- <font-awesome-icon icon="less-than" />
           <a href="/index.html" class="h1 mb-0">jL</a>
           <font-awesome-icon icon="greater-than" /> -->
         </div>
-        <b-nav-item href="#">About Me</b-nav-item>
-        <!-- Navbar dropdowns -->
-        <b-nav-item-dropdown text="Skills" right>
-          <b-dropdown-item href="#">Technical</b-dropdown-item>
-          <b-dropdown-item href="#">Soft Skills</b-dropdown-item>
-        </b-nav-item-dropdown>
-        <b-nav-item href="#">Projects</b-nav-item>
-        <b-nav-item href="#">Work History</b-nav-item>
-        <b-nav-item href="#">Education</b-nav-item>
-        <b-nav-item href="#">Resume</b-nav-item>
+        <div class="main-nav">
+          <b-nav-item href="#aboutMe">About Me</b-nav-item>
+          <!-- <b-nav-item-dropdown text="Skills" right>
+            <b-dropdown-item href="#">Technical</b-dropdown-item>
+            <b-dropdown-item href="#">Soft Skills</b-dropdown-item>
+          </b-nav-item-dropdown> -->
+          <b-nav-item href="#skills">Skills</b-nav-item>
+          <b-nav-item href="#projects">Projects</b-nav-item>
+          <b-nav-item href="#workHistory">Work History</b-nav-item>
+          <b-nav-item href="#education">Education</b-nav-item>
+          <b-nav-item href="#resume">Resume</b-nav-item>
+        </div>
       <a
           href="https://github.com/JoshAaronLevy/portfolio"
           target="_blank"
@@ -60,8 +62,16 @@
   padding: 0px;
 }
 
+.navbar-nav {
+  width: 100%;
+  padding-right: 75px;
+}
+
 a.nav-link {
   height: 100px;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  color: #222 !important;
 }
 
 .logo {
@@ -108,6 +118,7 @@ a.nav-link {
   display: flex;
   min-width: 70%;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .navbar-list {
@@ -124,13 +135,13 @@ a.nav-link {
   height: 100px;
 }
 
-.main-nav ul li {
+.main-nav li {
   display: flex;
   list-style-type: none;
   align-items: stretch;
 }
 
-.main-nav ul li a {
+.main-nav li a {
   display: flex;
   align-items: center;
   padding-left: 15px;
@@ -142,27 +153,27 @@ a.nav-link {
   transition: color, background-color, 500ms;
 }
 
-.main-nav ul li a:hover {
+.main-nav li a:hover {
   background-color: #ae0001;
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
 }
 
-.main-nav ul li a:active {
+.main-nav li a:active {
   background-color: #ae0001;
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
 }
 
-.main-nav ul li a.active {
+.main-nav li a.active {
   background-color: #ae0001;
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
 }
 
-.main-nav ul li a:focus {
+.main-nav li a:focus {
   background-color: #ae0001;
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
 }
 
@@ -204,8 +215,8 @@ a.nav-link {
 }
 
 .github-corner {
-  width: 80px;
-  height: 80px;
+  width: 75px;
+  height: 75px;
   fill: #151513;
   color: #fff;
   position: absolute;
