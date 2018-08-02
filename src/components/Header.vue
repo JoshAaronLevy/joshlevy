@@ -1,6 +1,6 @@
 <template>
   <div>
-  <b-navbar type="light" variant="light" toggleable>
+  <b-navbar type="light" variant="light" toggleable class="sticky-top">
     <b-navbar-toggle target="nav_dropdown_collapse"></b-navbar-toggle>
     <b-collapse is-nav id="nav_dropdown_collapse">
       <b-navbar-nav>
@@ -47,8 +47,28 @@
 </template>
 
 <style scoped>
+.bg-light {
+  background-color: #fff !important;
+}
+
 .navbar {
-  height: 80px;
+  display: flex;
+  width: 100%;
+  min-height: 100px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 1px #333;
+  padding: 0px;
+}
+
+a.nav-link {
+  height: 100px;
+}
+
+.logo {
+  display: flex;
+  align-items: stretch;
+  padding-left: 100px;
+  min-width: 30%;
 }
 
 .fa-less-than {
@@ -66,6 +86,105 @@
   margin-left: 7px;
   padding-top: 13px;
 }
+
+.logo a {
+  font-size: 58px;
+  font-family: "Yellowtail", cursive;
+  color: #ae0001;
+  padding-bottom: 7px;
+}
+
+.logo .h1:hover {
+  color: #444;
+  text-decoration: none;
+}
+
+.logo a:hover {
+  color: #444;
+  text-decoration: none;
+}
+
+.main-nav {
+  display: flex;
+  min-width: 70%;
+  justify-content: flex-end;
+}
+
+.navbar-list {
+  justify-content: space-around;
+}
+
+.main-nav ul {
+  display: flex;
+  font-size: 20px;
+  align-items: stretch;
+  margin-right: 100px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  height: 100px;
+}
+
+.main-nav ul li {
+  display: flex;
+  list-style-type: none;
+  align-items: stretch;
+}
+
+.main-nav ul li a {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #222;
+  text-decoration: none;
+  font-weight: 700;
+  -webkit-transition: color, background-color, 500ms;
+  transition: color, background-color, 500ms;
+}
+
+.main-nav ul li a:hover {
+  background-color: #ae0001;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-nav ul li a:active {
+  background-color: #ae0001;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-nav ul li a.active {
+  background-color: #ae0001;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-nav ul li a:focus {
+  background-color: #ae0001;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* .navbar {
+  height: 80px;
+} */
+
+/* .fa-less-than {
+  display: inline-flex !important;
+  align-items: center;
+  font-size: 28px;
+  margin-right: 7px;
+  padding-top: 13px;
+}
+
+.fa-greater-than {
+  display: inline-flex !important;
+  align-items: center;
+  font-size: 28px;
+  margin-left: 7px;
+  padding-top: 13px;
+} */
 
 .logo a {
   font-size: 42px;
