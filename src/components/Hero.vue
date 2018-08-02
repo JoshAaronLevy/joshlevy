@@ -23,13 +23,13 @@
 }
 
 .hero-designer {
-  height: 600px;
+  height: 500px;
   display: inline-flex;
   justify-content: flex-end;
   align-items: center;
   text-align: center;
   color: white;
-  background-image: url("/src/assets/html-sample.png");
+  background-image: url("../assets/html-sample.png");
   background-size: 51%;
   background-position: left center;
   background-repeat: no-repeat;
@@ -40,13 +40,13 @@
 }
 
 .hero-developer {
-  height: 600px;
+  height: 500px;
   display: inline-flex;
   justify-content: flex-start;
   align-items: center;
   text-align: center;
   color: white;
-  background-image: url("/src/assets/javascript-sample.png");
+  background-image: url("../assets/javascript-sample.png");
   background-size: 51%;
   background-position: center right;
   background-repeat: no-repeat;
@@ -64,7 +64,7 @@
   align-items: center;
   text-align: center;
   color: white;
-  background-image: url("/src/assets/javascript-heading.png");
+  background-image: url("../assets/javascript-heading.png");
   background-size: 100%;
   background-position: center center;
   background-repeat: no-repeat;

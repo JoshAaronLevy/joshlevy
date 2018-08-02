@@ -1,8 +1,7 @@
 <template>
   <div class="home">
     <Header/>
-    <Hero/>>
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <Hero/>
     <Projects/>
   </div>
 </template>
@@ -17,7 +16,6 @@ import Hero from "@/components/Hero.vue";
 export default {
   name: "home",
   components: {
-    // HelloWorld,
     Header,
     Hero,
     Projects
