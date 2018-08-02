@@ -1,5 +1,5 @@
-<template>
-  <b-table :items="items" :fields="fields" class="section-body">
+<template class="section-body">
+  <b-table :items="items" :fields="fields">
     <template slot="details" slot-scope="row">
       <!-- we use @click.stop here to prevent emitting of a 'row-clicked' event  -->
       <b-button size="sm" @click.stop="row.toggleDetails" class="mr-2 btn-success">
@@ -64,6 +64,7 @@ export default {
 
 <style scoped>
 .section-body {
-  padding: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 </style>
