@@ -31,7 +31,7 @@
   color: white;
   background-image: url("../assets/html-sample.png");
   background-size: 51%;
-  background-position: left center;
+  background-position: left top;
   background-repeat: no-repeat;
   background-attachment: fixed;
   width: 50%;
@@ -48,7 +48,7 @@
   color: white;
   background-image: url("../assets/javascript-sample.png");
   background-size: 51%;
-  background-position: center right;
+  background-position: right top;
   background-repeat: no-repeat;
   background-attachment: fixed;
   width: 50%;
