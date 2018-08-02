@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <Header/>
-    <img src="../assets/logo.png">
+    <Hero/>>
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <Projects/>
   </div>
@@ -12,12 +12,14 @@
 // import HelloWorld from "@/components/HelloWorld.vue";
 import Header from "@/components/Header.vue";
 import Projects from "@/components/Projects.vue";
+import Hero from "@/components/Hero.vue";
 
 export default {
   name: "home",
   components: {
     // HelloWorld,
     Header,
+    Hero,
     Projects
   }
 };
