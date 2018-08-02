@@ -10,19 +10,15 @@
           <a href="/index.html" class="h1 mb-0">jL</a>
           <font-awesome-icon icon="greater-than" /> -->
         </div>
-        <b-nav-item href="#">Home</b-nav-item>
-        <b-nav-item href="#">Link</b-nav-item>
+        <b-nav-item href="#">About Me</b-nav-item>
         <!-- Navbar dropdowns -->
-        <b-nav-item-dropdown text="Lang" right>
-          <b-dropdown-item href="#">EN</b-dropdown-item>
-          <b-dropdown-item href="#">ES</b-dropdown-item>
-          <b-dropdown-item href="#">RU</b-dropdown-item>
-          <b-dropdown-item href="#">FA</b-dropdown-item>
+        <b-nav-item-dropdown text="Skills" right>
+          <b-dropdown-item href="#">Technical</b-dropdown-item>
+          <b-dropdown-item href="#">Soft Skills</b-dropdown-item>
         </b-nav-item-dropdown>
-        <b-nav-item-dropdown text="User" right>
-          <b-dropdown-item href="#">Account</b-dropdown-item>
-          <b-dropdown-item href="#">Settings</b-dropdown-item>
-        </b-nav-item-dropdown>
+        <b-nav-item href="#">Projects</b-nav-item>
+        <b-nav-item href="#">Work History</b-nav-item>
+        <b-nav-item href="#">Resume</b-nav-item>
       <a
           href="https://github.com/JoshAaronLevy/portfolio"
           target="_blank"
