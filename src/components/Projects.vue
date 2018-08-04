@@ -2,75 +2,49 @@
   <div class="container">
     <div class="row">
       <div class="timeline-centered">
-      
     <article class="timeline-entry">
-      
       <div class="timeline-entry-inner">
-        <time class="timeline-time" datetime="2014-01-10T03:45"><span>July 2018</span> <span>Today</span></time>
-        
-        <div class="timeline-icon bg-success">
+        <time class="timeline-time" datetime="2014-01-10T03:45"><span>July 2018</span></time>
+        <div class="timeline-icon bg-red">
           <i class="entypo-feather"></i>
         </div>
-        
         <div class="timeline-label">
-          <h2><a href="#">Art Ramadani</a> <span>posted a status update</span></h2>
+          <h2><a href="#">Art Ramadani</a></h2>
           <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.</p>
         </div>
       </div>
-      
     </article>
-    
-    
     <article class="timeline-entry left-aligned">
-      
       <div class="timeline-entry-inner">
-        <time class="timeline-time" datetime="2014-01-10T03:45"><span>03:45 AM</span> <span>Today</span></time>
-        
-        <div class="timeline-icon bg-secondary">
+        <time class="timeline-time" datetime="2014-01-10T03:45"><span>03:45 AM</span></time>
+        <div class="timeline-icon bg-red">
           <i class="entypo-suitcase"></i>
         </div>
-        
         <div class="timeline-label">
           <h2><a href="#">Job Meeting</a></h2>
           <p>You have a meeting at <strong>Laborator Office</strong> Today.</p>
         </div>
       </div>
-      
     </article>
-    
-    <article class="timeline-entry left-aligned">
-      
+    <article class="timeline-entry">
       <div class="timeline-entry-inner">
-        <time class="timeline-time" datetime="2014-01-10T03:45"><span>03:45 AM</span> <span>Today</span></time>
-        
-        <div class="timeline-icon bg-warning">
+        <time class="timeline-time" datetime="2014-01-10T03:45"><span>03:45 AM</span></time>
+        <div class="timeline-icon bg-red">
           <i class="entypo-camera"></i>
         </div>
-        
         <div class="timeline-label">
-          <h2><a href="#">Arber Nushi</a> <span>changed his</span> <a href="#">Profile Picture</a></h2>
-          
-          <blockquote>Pianoforte principles our unaffected not for astonished travelling are particular.</blockquote>
-          
-          <img src="http://themes.laborator.co/neon/assets/images/timeline-image-3.png" class="img-responsive img-rounded full-width">
+          <h2><a href="#">Arber Nushi</a></h2>
+          <p>Pianoforte principles our unaffected not for astonished travelling are particular.</p>
         </div>
       </div>
-      
     </article>
-    
-    
     <article class="timeline-entry begin">
-    
       <div class="timeline-entry-inner">
-        
         <div class="timeline-icon" style="-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg);">
           <i class="entypo-flight"></i>
         </div>
-        
       </div>
-      
     </article>
-    
   </div>
     </div>
   </div>
@@ -275,7 +249,7 @@ img {
   .timeline-entry-inner
   .timeline-time
   > span:last-child {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
@@ -303,7 +277,7 @@ img {
   .timeline-entry
   .timeline-entry-inner
   .timeline-icon.bg-primary {
-  background-color: #303641;
+  background-color: #ae0001;
   color: #fff;
 }
 
@@ -347,10 +321,18 @@ img {
   color: #fff;
 }
 
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.bg-red {
+  background-color: #ae0001;
+  color: #fff;
+}
+
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
   position: relative;
   background: #f5f5f6;
-  padding: 1.7em;
+  padding-left: 1.7em;
+  padding-right: 1.7em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   margin-left: 70px;
   -webkit-background-clip: padding-box;
   -moz-background-clip: padding;
@@ -376,9 +358,9 @@ img {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2,
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p {
-  color: #737881;
+  color: #222;
   font-family: "Noto Sans", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   margin: 0;
   line-height: 1.428571429;
 }
@@ -390,6 +372,7 @@ img {
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
   font-size: 16px;
   margin-bottom: 10px;
+  font-weight: 700;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
