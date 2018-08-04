@@ -9,32 +9,32 @@
           <i class="entypo-feather"></i>
         </div>
         <div class="timeline-label">
-          <h2><a href="#">Art Ramadani</a></h2>
-          <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare how cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. Added forth chief trees but rooms think may.</p>
+          <h2><a v-b-modal.modal1>Bad Movie Night</a></h2>
+          <p>Serve data to end-users with custom API's.</p>
         </div>
       </div>
     </article>
     <article class="timeline-entry left-aligned">
       <div class="timeline-entry-inner">
-        <time class="timeline-time" datetime="2014-01-10T03:45"><span>03:45 AM</span></time>
+        <time class="timeline-time" datetime="2014-01-10T03:45"><span>July 2018</span></time>
         <div class="timeline-icon bg-red">
           <i class="entypo-suitcase"></i>
         </div>
         <div class="timeline-label">
-          <h2><a href="#">Job Meeting</a></h2>
-          <p>You have a meeting at <strong>Laborator Office</strong> Today.</p>
+          <h2><a href="#">Dinosaur Jobs</a></h2>
+          <p>First experience with React. Created job posting site using state management.</p>
         </div>
       </div>
     </article>
     <article class="timeline-entry">
       <div class="timeline-entry-inner">
-        <time class="timeline-time" datetime="2014-01-10T03:45"><span>03:45 AM</span></time>
+        <time class="timeline-time" datetime="2014-01-10T03:45"><span>June 2018</span></time>
         <div class="timeline-icon bg-red">
           <i class="entypo-camera"></i>
         </div>
         <div class="timeline-label">
-          <h2><a href="#">Arber Nushi</a></h2>
-          <p>Pianoforte principles our unaffected not for astonished travelling are particular.</p>
+          <h2><a href="#">Calculator</a></h2>
+          <p>Calculator made interactive with JavaScript DOM manipulation.</p>
         </div>
       </div>
     </article>
@@ -47,10 +47,23 @@
     </article>
   </div>
     </div>
+  <b-modal id="modal1" size="lg" title="Bad Movie Night">
+    <p class="my-4">Developed With</p>
+  </b-modal>
   </div>
 </template>
 
 <style scoped>
+.row {
+  align-items: center;
+}
+.modal-dialog {
+  min-width: 900px !important;
+  max-width: 900px !important;
+}
+.btn-secondary {
+  visibility: hidden !important;
+}
 img {
   vertical-align: middle;
 }
@@ -82,6 +95,7 @@ img {
 .timeline-centered {
   position: relative;
   margin-bottom: 30px;
+  width: 100%;
 }
 
 .timeline-centered:before,
@@ -376,7 +390,18 @@ img {
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
-  color: #303641;
+  color: #ae0001;
+}
+
+.timeline-centered
+  .timeline-entry
+  .timeline-entry-inner
+  .timeline-label
+  h2
+  a:hover {
+  color: #222;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .timeline-centered
