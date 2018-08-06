@@ -77,7 +77,7 @@ a.nav-link {
 .logo {
   display: flex;
   align-items: stretch;
-  padding-left: 100px;
+  padding-left: 75px;
   min-width: 30%;
 }
 
@@ -127,7 +127,6 @@ a.nav-link {
 
 .main-nav ul {
   display: flex;
-  font-size: 20px;
   align-items: stretch;
   margin-right: 100px;
   margin-bottom: 0px;
@@ -137,6 +136,7 @@ a.nav-link {
 
 .main-nav li {
   display: flex;
+  font-size: 18px !important;
   list-style-type: none;
   align-items: stretch;
 }

@@ -9,14 +9,13 @@ import {
   library
 } from '@fortawesome/fontawesome-svg-core'
 import {
-  faGithub,
   faGreaterThan
 } from '@fortawesome/free-solid-svg-icons'
 import {
   FontAwesomeIcon
 } from '@fortawesome/vue-fontawesome'
 
-library.add(faGithub, faGreaterThan)
+library.add(faGreaterThan)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 

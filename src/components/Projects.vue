@@ -49,12 +49,16 @@
     </div>
   <b-modal id="modal1" size="lg" title="Bad Movie Night">
     <p class="my-4">View:</p>
-    <font-awesome-icon icon="github" />
+    <!-- <font-awesome-icon icon="Git" /> -->
   </b-modal>
   </div>
 </template>
 
 <style scoped>
+.site-table {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 .row {
   align-items: center;
 }

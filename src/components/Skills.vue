@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="skills">
   <b-card title="React"
           img-src="https://picsum.photos/600/300/?image=25"
           img-alt="Image"
@@ -28,6 +28,10 @@
 </template>
 
 <style scoped>
+.skills {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 .card {
   display: inline-flex;
   margin-left: 10px;

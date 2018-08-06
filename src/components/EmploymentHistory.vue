@@ -1,5 +1,5 @@
-<template class="section-body">
-  <b-table :items="items" :fields="fields">
+<template>
+  <b-table :items="items" :fields="fields" class="section-body site-table">
     <template slot="details" slot-scope="row">
       <b-button size="sm" @click.stop="row.toggleDetails" class="mr-2 btn-success">
        {{ row.detailsShowing ? 'Hide' : 'View'}} Details
@@ -55,8 +55,11 @@ export default {
 </script>
 
 <style scoped>
-.section-body {
-  padding-left: 50px;
-  padding-right: 50px;
+.site-table {
+  width: 80% !important;
+  margin: 0 auto;
+  border-left: 2px solid lightgrey;
+  border-right: 2px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
 }
 </style>
