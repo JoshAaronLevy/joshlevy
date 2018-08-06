@@ -48,7 +48,8 @@
   </div>
     </div>
   <b-modal id="modal1" size="lg" title="Bad Movie Night">
-    <p class="my-4">Developed With</p>
+    <p class="my-4">View:</p>
+    <font-awesome-icon icon="github" />
   </b-modal>
   </div>
 </template>

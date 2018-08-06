@@ -1,6 +1,6 @@
 <template>
   <div>
-  <b-card title="Card Title"
+  <b-card title="React"
           img-src="https://picsum.photos/600/300/?image=25"
           img-alt="Image"
           img-top
@@ -12,7 +12,7 @@
     </p>
     <b-button href="#" variant="primary">Go somewhere</b-button>
   </b-card>
-  <b-card title="Card Title"
+  <b-card title="Vue.js"
           img-src="https://picsum.photos/600/300/?image=25"
           img-alt="Image"
           img-top
@@ -30,6 +30,8 @@
 <style scoped>
 .card {
   display: inline-flex;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 </style>
 
