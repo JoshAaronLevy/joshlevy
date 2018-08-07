@@ -90,13 +90,13 @@ exports.seed = function (knex, Promise) {
         name: 'JavaScript',
         type: 'Front-End',
         experience: '3-5 years',
-        img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/JavaScript-Logo.png'
+        img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/JavaScript-Logo.jpg'
       }, {
         id: 16,
         name: 'HTML5 & CSS3',
         type: 'Front-End',
         experience: '3-5 years',
-        img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/HTML5-CSS3-Logo.png'
+        img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/HTML5-CSS3-Logo.gif'
       }]);
     });
 };
