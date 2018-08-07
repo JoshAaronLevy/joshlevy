@@ -7,7 +7,7 @@ const skills = require('./routes/skills');
 
 app.use(bodyParser.json());
 
-app.use('/', skills);
+app.use('/skills', skills);
 
 app.use((req, res, next) => {
   const err = new Error('Not Found');
