@@ -16,6 +16,7 @@
     <Education/>
     <!-- <h2>Volunteer Work</h2> -->
     <h2 id="resume" class="section-heading">Resume</h2>
+    <Resume/>
     <Footer />
   </div>
 </template>
@@ -29,6 +30,7 @@ import Skills from "@/components/Skills.vue";
 import Projects from "@/components/Projects.vue";
 import EmploymentHistory from "@/components/EmploymentHistory.vue";
 import Education from "@/components/Education.vue";
+import Resume from "@/components/Resume.vue";
 import Footer from "@/components/Footer.vue";
 
 export default {
@@ -40,6 +42,7 @@ export default {
     Projects,
     EmploymentHistory,
     Education,
+    Resume,
     Footer
   }
 };
