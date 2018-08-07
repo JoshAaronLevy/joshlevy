@@ -31,8 +31,8 @@ export default {
     fetch(this.skillsURL)
       .then(response => response.json())
       .then(response => {
-        this.skills = response;
-        console.log(skills);
+        this.skills = response.skills;
+        console.log(this.skills.skills);
       });
   }
   // name: "Skills",
