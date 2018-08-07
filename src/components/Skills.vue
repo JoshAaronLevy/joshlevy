@@ -34,7 +34,6 @@ export default {
       .then(response => response.json())
       .then(response => {
         this.skills = response.skills;
-        console.log(this.skills.skills);
       });
   }
 };
