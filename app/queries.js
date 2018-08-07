@@ -2,25 +2,25 @@ const database = require('./database-connection');
 
 module.exports = {
   list() {
-    return database('portfolio').select();
+    return database('skills').select();
   },
   read(id) {
-    return database('portfolio').select().where('id', id).first();
+    return database('skills').select().where('id', id).first();
   },
-  create(portfolio) {
-    return database('portfolio')
-      .insert(portfolio)
+  create(skills) {
+    return database('skills')
+      .insert(skills)
       .returning('*')
       .then(record => record[0]);
   },
-  update(id, portfolio) {
-    return database('portfolio')
-      .update(portfolio)
+  update(id, skills) {
+    return database('skills')
+      .update(skills)
       .where('id', id)
       .returning('*')
       .then(record => record[0]);
   },
   delete(id) {
-    return database('portfolio').delete().where('id', id);
+    return database('skills').delete().where('id', id);
   }
 };
