@@ -23,22 +23,37 @@ export default {
   name: "Skills",
   data() {
     return {
-      skills: [
-        {
-          id: 1,
-          name: "React",
-          type: "Front-End",
-          image: "https://aws.com"
-        },
-        {
-          id: 2,
-          name: "Vue.js",
-          type: "Front-End",
-          image: "https://aws.com"
-        }
-      ]
+      skills: [],
+      skillsURL: "https://joshlevy.herokuapp.com/skills"
     };
+  },
+  mounted() {
+    fetch(this.skillsURL)
+      .then(response => response.json())
+      .then(response => {
+        this.skills = response;
+        console.log(skills);
+      });
   }
+  // name: "Skills",
+  // data() {
+  //   return {
+  //     skills: [
+  //       {
+  //         id: 1,
+  //         name: "React",
+  //         type: "Front-End",
+  //         image: "https://aws.com"
+  //       },
+  //       {
+  //         id: 2,
+  //         name: "Vue.js",
+  //         type: "Front-End",
+  //         image: "https://aws.com"
+  //       }
+  //     ]
+  //   };
+  // }
 };
 </script>
 
