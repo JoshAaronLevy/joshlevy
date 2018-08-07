@@ -5,7 +5,7 @@
         <div class="skill-card-main">
         <div class="team-front">
         <div class="skill-card-img">
-          <img src="http://placehold.it/110x110/9c27b0/fff?text=Dilip" class="img-fluid" />
+          <img :src="skill.img" class="img-fluid" />
         </div>
         <h3>{{ skill.name }}</h3>
         <h6>{{ skill.type }}</h6>

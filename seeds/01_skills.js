@@ -6,7 +6,7 @@ exports.seed = function (knex, Promise) {
         name: 'React',
         type: 'Front-End',
         experience: '>1 year',
-        img: 'https://aws.com'
+        img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/React-Logo.png'
       }, {
         id: 2,
         name: 'Vue.js',
