@@ -4,28 +4,28 @@ const router = express.Router();
 const queries = require('../queries');
 
 router.get('/', (request, response, next) => {
-  queries.list('skills').then(skills => {
+  queries.list('projects').then(projects => {
     response.json({
-      skills
+      projects
     });
   }).catch(next);
 });
 
 router.get('/:id', (request, response, next) => {
-  queries.read(request.params.id).then(skill => {
-    skill
+  queries.read(request.params.id).then(project => {
+    project
       ?
       response.json({
-        skill
+        project
       }) :
       response.sendStatus(404)
   }).catch(next);
 });
 
 router.post('/', (request, response, next) => {
-  queries.create(request.body).then(skill => {
+  queries.create(request.body).then(project => {
     response.status(201).json({
-      skill: skill
+      project: project
     });
   }).catch(next);
 });
@@ -37,9 +37,9 @@ router.delete('/:id', (request, response, next) => {
 });
 
 router.put('/:id', (request, response, next) => {
-  queries.update(request.params.id, request.body).then(skill => {
+  queries.update(request.params.id, request.body).then(project => {
     response.json({
-      skill: skill[0]
+      project: project[0]
     });
   }).catch(next);
 });

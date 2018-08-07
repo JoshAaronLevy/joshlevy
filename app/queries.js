@@ -1,8 +1,8 @@
 const database = require('./database-connection');
 
 module.exports = {
-  list() {
-    return database('skills').select();
+  list(table) {
+    return database(table).select();
   },
   read(id) {
     return database('skills').select().where('id', id).first();
