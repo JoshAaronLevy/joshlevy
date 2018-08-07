@@ -5,7 +5,7 @@
         <div class="skill-card-main">
         <div class="team-front">
         <div class="skill-card-img">
-          <img :src="skill.img" class="img-fluid" />
+          <img :src="skill.img" class="img-fluid" :alt="skill.name" />
         </div>
         <h3>{{ skill.name }}</h3>
         <h6>{{ skill.type }}</h6>
