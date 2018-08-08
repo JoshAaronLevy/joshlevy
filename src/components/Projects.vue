@@ -54,6 +54,25 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: "Projects",
+  data() {
+    return {
+      projects: [],
+      projectsURL: "https://joshlevy.herokuapp.com/projects"
+    };
+  },
+  mounted() {
+    fetch(this.projectsURL)
+      .then(response => response.json())
+      .then(response => {
+        this.projects = response.projects;
+      });
+  }
+};
+</script>
+
 <style scoped>
 .site-table {
   padding-left: 50px;
