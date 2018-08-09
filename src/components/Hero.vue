@@ -9,7 +9,7 @@
     <section class="hero-developer col-xs-6 col-lg-6">
       <div class="hero-inner">
         <h1 class="animate fadeInRight">Developer</h1>
-        <h2>JavaScript/NodeJS/SQL</h2>
+        <h2>JavaScript/Node.js/SQL</h2>
       </div>
     </section>
   </section>

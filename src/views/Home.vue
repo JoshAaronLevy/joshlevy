@@ -3,7 +3,7 @@
     <Header/>
     <Hero/>
     <h2 id="aboutMe" class="section-heading">About Me</h2>
-    <!-- <AboutMe/> -->
+    <AboutMe/>
     <h2 id="skills" class="section-heading">Skills</h2>
     <Skills/>
     <!-- <h3>Technical Skills</h3> -->
@@ -26,6 +26,7 @@
 // import HelloWorld from "@/components/HelloWorld.vue";
 import Header from "@/components/Header.vue";
 import Hero from "@/components/Hero.vue";
+import AboutMe from "@/components/AboutMe.vue";
 import Skills from "@/components/Skills.vue";
 import Projects from "@/components/Projects.vue";
 import EmploymentHistory from "@/components/EmploymentHistory.vue";
@@ -38,6 +39,7 @@ export default {
   components: {
     Header,
     Hero,
+    AboutMe,
     Skills,
     Projects,
     EmploymentHistory,
