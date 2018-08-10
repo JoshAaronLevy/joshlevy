@@ -9,7 +9,7 @@
           <i class="entypo-feather"></i>
         </div>
         <div class="timeline-label">
-          <h2><a v-b-modal.modal1>Bad Movie Night</a></h2>
+          <h2><a href="https://bad-movie-night.firebaseapp.com/" target="_blank">Bad Movie Night</a></h2>
           <p>Serve data to end-users with custom API's.</p>
         </div>
       </div>
@@ -21,20 +21,32 @@
           <i class="entypo-suitcase"></i>
         </div>
         <div class="timeline-label">
-          <h2><a href="#">Dinosaur Jobs</a></h2>
+          <h2><a href="https://react-dinosaurs-1.herokuapp.com/" target="_blank">React Dinosaur Jobs</a></h2>
           <p>First experience with React. Created job posting site using state management.</p>
         </div>
       </div>
     </article>
     <article class="timeline-entry">
       <div class="timeline-entry-inner">
+        <time class="timeline-time" datetime="2014-01-10T03:45"><span>July 2018</span></time>
+        <div class="timeline-icon bg-red">
+          <i class="entypo-suitcase"></i>
+        </div>
+        <div class="timeline-label">
+          <h2><a href="https://angular-dinosaurs-one.firebaseapp.com/" target="_blank">Angular Dinosaur Jobs</a></h2>
+          <p>First experience with Angular 6. Created job posting site using state management.</p>
+        </div>
+      </div>
+    </article>
+    <article class="timeline-entry left-aligned">
+      <div class="timeline-entry-inner">
         <time class="timeline-time" datetime="2014-01-10T03:45"><span>June 2018</span></time>
         <div class="timeline-icon bg-red">
           <i class="entypo-camera"></i>
         </div>
         <div class="timeline-label">
-          <h2><a href="#">Calculator</a></h2>
-          <p>Calculator made interactive with JavaScript DOM manipulation.</p>
+          <h2><a href="https://lovely-calculator.firebaseapp.com/" target="_blank">JavaScript Calculator</a></h2>
+          <p>Interactive Calculator made with JavaScript DOM manipulation.</p>
         </div>
       </div>
     </article>
