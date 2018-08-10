@@ -5,17 +5,10 @@
     <b-collapse is-nav id="nav_dropdown_collapse">
       <b-navbar-nav>
         <div class="logo">
-          <img src="../assets/logo.png" href="/">
-          <!-- <font-awesome-icon icon="less-than" />
-          <a href="/index.html" class="h1 mb-0">jL</a>
-          <font-awesome-icon icon="greater-than" /> -->
+          <a href="/"><img src="../assets/logo.png"></a>
         </div>
         <div class="main-nav">
           <b-nav-item href="#aboutMe">About Me</b-nav-item>
-          <!-- <b-nav-item-dropdown text="Skills" right>
-            <b-dropdown-item href="#">Technical</b-dropdown-item>
-            <b-dropdown-item href="#">Soft Skills</b-dropdown-item>
-          </b-nav-item-dropdown> -->
           <b-nav-item href="#skills">Skills</b-nav-item>
           <b-nav-item href="#projects">Projects</b-nav-item>
           <b-nav-item href="#workHistory">Work History</b-nav-item>
