@@ -21,26 +21,17 @@
 
 <script>
 export default {
-  // name: "Jobs",
-  // data() {
-  //   return {
-  //     fields: ["company", "title", "employment_date", "details"],
-  //     jobs: [],
-  //     jobsURL: "https://joshlevy.herokuapp.com/jobs"
-  //   };
-  // },
-  // mounted() {
-  //   fetch(this.jobsURL)
-  //     .then(response => response.json())
-  //     .then(response => {
-  //       this.jobs = response.jobs;
-  //     });
-  // }
   name: "Jobs",
   data() {
     return {
       fields: ["company", "title", "employment_date", "details"],
       items: [
+        {
+          company: "Learn to Code - Galvanize",
+          title: "Co-Owner/Lead Instructor",
+          employment_date: "April 2018 - September 2018",
+          details: [`One of three owners of the free, student-run Learn-to-Code program conducted weekly`, `Delivered engaging classroom lectures on HTML, CSS and VanillaJS to students brand new to coding`, `Created and maintain Learn-to-Code website, providing program agendas and overall structure`, `Helped manage and cultivate a team of future development stars - the TA's`]
+        },
         {
           company: "Fireplace Warehouse",
           title: "Marketing/IT/Web Developer",
