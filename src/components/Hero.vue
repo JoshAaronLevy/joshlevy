@@ -20,6 +20,7 @@
   display: inline-flex;
   padding-left: 0px !important;
   padding-right: 0px !important;
+  margin-top: 100px;
 }
 
 .hero-designer {

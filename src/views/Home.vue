@@ -10,7 +10,7 @@
     <!-- <h3>Soft Skills</h3> -->
     <h2 id="projects" class="section-heading">Projects</h2>
     <Projects/>
-    <h2 id="workHistory" class="section-heading">Employment History</h2>
+    <h2 id="workHistory" class="section-heading">Work History</h2>
     <EmploymentHistory/>
     <h2 id="education" class="section-heading">Education</h2>
     <Education/>
