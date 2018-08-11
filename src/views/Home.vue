@@ -2,7 +2,7 @@
   <div class="home">
     <Preloader/>
     <Header/>
-    <Hero/>
+    <!-- <Hero/> -->
     <h2 id="aboutMe" class="section-heading">About Me</h2>
     <AboutMe/>
     <h2 id="skills" class="section-heading">Skills</h2>
@@ -27,7 +27,7 @@
 // import HelloWorld from "@/components/HelloWorld.vue";
 import Preloader from "@/components/Preloader.vue";
 import Header from "@/components/Header.vue";
-import Hero from "@/components/Hero.vue";
+// import Hero from "@/components/Hero.vue";
 import AboutMe from "@/components/AboutMe.vue";
 import Skills from "@/components/Skills.vue";
 import Projects from "@/components/Projects.vue";
@@ -41,7 +41,7 @@ export default {
   components: {
     Preloader,
     Header,
-    Hero,
+    // Hero,
     AboutMe,
     Skills,
     Projects,

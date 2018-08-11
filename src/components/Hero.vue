@@ -1,18 +1,24 @@
 <template>
-  <section class="main-hero col-lg-12">
-    <section class="hero-designer col-xs-12 col-sm-12 col-lg-6">
-      <div class="hero-inner">
-        <h1 class="animate fadeInLeft">Designer</h1>
-        <h2>React/Vue.js/Angular</h2>
-      </div>
+  <b-row lg="12" sm="12">
+    <section class="main-hero">
+      <b-col lg="6" sm="12">
+        <section class="hero-designer">
+          <div class="hero-inner">
+            <h1 class="animate fadeInLeft">Designer</h1>
+            <h2>React/Vue.js/Angular</h2>
+          </div>
+        </section>
+      </b-col>
+      <b-col lg="6" sm="12">
+        <section class="hero-developer">
+          <div class="hero-inner">
+            <h1 class="animate fadeInRight">Developer</h1>
+            <h2>JavaScript/Node.js/SQL</h2>
+          </div>
+        </section>
+      </b-col>
     </section>
-    <section class="hero-developer col-xs-12 col-sm-12 col-lg-6">
-      <div class="hero-inner">
-        <h1 class="animate fadeInRight">Developer</h1>
-        <h2>JavaScript/Node.js/SQL</h2>
-      </div>
-    </section>
-  </section>
+  </b-row>
 </template>
 
 <style scoped>

@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <p class="footer-copy">
-      Copyright &copy; 2018 - All Rights Reserved - Josh Levy
+      &copy; 2018 - Josh Levy
     </p>
   </footer>
 </template>
@@ -11,8 +11,8 @@
   display: flex;
   justify-content: space-between;
   background-color: #222;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
   align-items: stretch;
   height: 90px;
 }

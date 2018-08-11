@@ -1,19 +1,21 @@
 <template>
   <div>
-  <b-navbar type="light" variant="light" toggleable>
-    <b-navbar-nav>
-      <div class="logo">
-        <a href="/"><img src="../assets/logo.png"></a>
-      </div>
-      <div class="main-nav">
-        <b-nav-item href="#aboutMe">About Me</b-nav-item>
-        <b-nav-item href="#skills">Skills</b-nav-item>
-        <b-nav-item href="#projects">Projects</b-nav-item>
-        <b-nav-item href="#workHistory">Work History</b-nav-item>
-        <b-nav-item href="#education">Education</b-nav-item>
-        <b-nav-item href="#resume">Resume</b-nav-item>
-      </div>
-    <a
+    <b-navbar toggleable type="light" variant="light">
+      <b-navbar-toggle target="nav_text_collapse"></b-navbar-toggle>
+      <b-navbar-brand href="/">
+        <img src="../assets/logo.png">
+      </b-navbar-brand>
+      <b-collapse is-nav id="nav_text_collapse">
+        <b-navbar-nav>
+          <b-nav-item href="#aboutMe">About Me</b-nav-item>
+          <b-nav-item href="#skills">Skills</b-nav-item>
+          <b-nav-item href="#projects">Projects</b-nav-item>
+          <b-nav-item href="#workHistory">Work History</b-nav-item>
+          <b-nav-item href="#education">Education</b-nav-item>
+          <b-nav-item href="#resume">Resume</b-nav-item>
+        </b-navbar-nav>
+      </b-collapse>
+      <a
         href="https://github.com/JoshAaronLevy/portfolio"
         target="_blank"
         class="github-corner"
@@ -33,9 +35,8 @@
           />
         </svg>
       </a>
-    </b-navbar-nav>
-  </b-navbar>
-</div>
+    </b-navbar>
+  </div>
 </template>
 
 <style scoped>
@@ -54,16 +55,106 @@
   position: fixed;
 }
 
-.navbar-nav {
+.navbar-toggler {
+  margin-left: 10px;
+}
+
+/* .navbar-nav {
   width: 100%;
   padding-right: 75px;
+} */
+
+.navbar-brand {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-right: 0px;
+  margin-left: 75px;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 75px;
 }
 
 a.nav-link {
+  display: flex;
   height: 100px;
   padding-left: 15px !important;
   padding-right: 15px !important;
   color: #222 !important;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 700;
+  -webkit-transition: color, background-color, 500ms;
+  transition: color, background-color, 500ms;
+}
+
+a.nav-link:hover {
+  background-color: #ae0001;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+a.nav-link:active {
+  background-color: #ae0001;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-right: 115px;
+    margin-left: 0px;
+  }
+
+  .navbar-collapse {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  ul.navbar-nav {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  li.nav-item {
+    border-top: 1px solid #333;
+  }
+
+  a.nav-link {
+    display: flex;
+    height: 50px;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    color: #222 !important;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    -webkit-transition: color, background-color, 500ms;
+    transition: color, background-color, 500ms;
+  }
+
+  a.nav-link:hover {
+    background-color: #ae0001;
+    color: #fff !important;
+    text-decoration: none;
+  }
+
+  a.nav-link:active {
+    background-color: #ae0001;
+    color: #fff !important;
+    text-decoration: none;
+  }
 }
 
 .logo {

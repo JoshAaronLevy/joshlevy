@@ -1,7 +1,7 @@
 <template>
   <ul id="Skills" class="skill-list col-lg-12 col-xs-12 col-sm-12">
     <li class="skill-card" v-for="skill in skills" :key="skill.id">
-      <div class="col-lg-3 col-xs-12 list-inline">
+      <div class="col-lg-3 col-xs-12 col-md-6 list-inline">
         <div class="skill-card-main">
         <div class="team-front">
         <div class="skill-card-img">
@@ -107,15 +107,5 @@ export default {
   bottom: 0px;
   transition: all 0.5s ease;
 }
-
-/* .skill-card-main:hover .team-front {
-  bottom: -200px;
-  transition: all 0.5s ease;
-}
-
-.skill-card-main:hover {
-  border-color: #777;
-  transition: 0.5s;
-} */
 </style>
 

@@ -5,9 +5,7 @@
     <article class="timeline-entry">
       <div class="timeline-entry-inner">
         <time class="timeline-time" datetime="2014-01-10T03:45"><span>July 2018</span></time>
-        <div class="timeline-icon bg-red">
-          <i class="entypo-feather"></i>
-        </div>
+        <div class="timeline-icon bg-red"></div>
         <div class="timeline-label">
           <h2><a href="https://bad-movie-night.firebaseapp.com/" target="_blank">Bad Movie Night</a></h2>
           <p>Serve data to end-users with custom API's.</p>
