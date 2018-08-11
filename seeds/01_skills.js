@@ -39,60 +39,72 @@ exports.seed = function (knex, Promise) {
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/MongoDB-Logo.png'
       }, {
         id: 7,
+        name: 'Mongoose',
+        type: 'Back-End',
+        experience: '1-3 years',
+        img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Mongoose-Logo.png'
+      }, {
+        id: 8,
         name: 'MySQL',
         type: 'Back-End',
         experience: '1-3 years',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/MySQL-Logo.png'
       }, {
-        id: 8,
+        id: 9,
+        name: 'Docker',
+        type: 'Back-End',
+        experience: '1-3 years',
+        img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Firebase-Logo.png'
+      }, {
+        id: 10,
         name: 'Firebase',
         type: 'Back-End',
         experience: '>1 year',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Firebase-Logo.png'
       }, {
-        id: 9,
+        id: 11,
         name: 'Passport.js',
         type: 'Back-End',
         experience: '1-3 years',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/PassportJS-Logo.png'
       }, {
-        id: 10,
+        id: 12,
         name: 'Stripe',
         type: 'Back-End',
         experience: '>1 year',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Stripe-Logo.png'
       }, {
-        id: 11,
+        id: 13,
         name: 'Heroku',
         type: 'Back-End',
         experience: '>1 year',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Heroku-Logo.png'
       }, {
-        id: 12,
+        id: 14,
         name: 'Knex',
         type: 'Back-End',
         experience: '>1 year',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/KnexJS-Logo.png'
       }, {
-        id: 13,
+        id: 15,
         name: 'Git',
         type: 'Back-End',
         experience: '3-5 years',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Git-Logo.png'
       }, {
-        id: 14,
+        id: 16,
         name: 'Bootstrap',
         type: 'Front-End',
         experience: '3-5 years',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Bootstrap-Logo.png'
       }, {
-        id: 15,
+        id: 17,
         name: 'JavaScript',
         type: 'Front-End',
         experience: '3-5 years',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/JavaScript-Logo.jpg'
       }, {
-        id: 16,
+        id: 18,
         name: 'HTML5 & CSS3',
         type: 'Front-End',
         experience: '3-5 years',
