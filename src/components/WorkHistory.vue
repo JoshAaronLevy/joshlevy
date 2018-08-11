@@ -2,7 +2,7 @@
   <b-table :items="items" :fields="fields" class="section-body site-table">
     <template slot="details" slot-scope="row">
       <b-button size="sm" @click.stop="row.toggleDetails" class="mr-2 btn-primary">
-       {{ row.detailsShowing ? 'Hide' : 'View'}} Details
+        {{ row.detailsShowing ? 'Hide' : 'View'}} Details
       </b-button>
     </template>
     <template slot="row-details" slot-scope="row">

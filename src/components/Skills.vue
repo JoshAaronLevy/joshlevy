@@ -1,7 +1,7 @@
 <template>
-  <ul id="Skills" class="skill-list col-lg-12">
+  <ul id="Skills" class="skill-list col-lg-12 col-xs-12 col-sm-12">
     <li class="skill-card" v-for="skill in skills" :key="skill.id">
-      <div class="col-lg-3 list-inline">
+      <div class="col-lg-3 col-xs-12 list-inline">
         <div class="skill-card-main">
         <div class="team-front">
         <div class="skill-card-img">

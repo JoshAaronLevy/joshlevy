@@ -1,12 +1,12 @@
 <template>
   <section class="main-hero col-lg-12">
-    <section class="hero-designer col-xs-6 col-lg-6">
+    <section class="hero-designer col-xs-12 col-sm-12 col-lg-6">
       <div class="hero-inner">
         <h1 class="animate fadeInLeft">Designer</h1>
         <h2>React/Vue.js/Angular</h2>
       </div>
     </section>
-    <section class="hero-developer col-xs-6 col-lg-6">
+    <section class="hero-developer col-xs-12 col-sm-12 col-lg-6">
       <div class="hero-inner">
         <h1 class="animate fadeInRight">Developer</h1>
         <h2>JavaScript/Node.js/SQL</h2>
