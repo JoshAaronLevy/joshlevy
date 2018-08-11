@@ -54,7 +54,7 @@ exports.seed = function (knex, Promise) {
         name: 'Docker',
         type: 'Back-End',
         experience: '1-3 years',
-        img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Firebase-Logo.png'
+        img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Docker-Logo.png'
       }, {
         id: 10,
         name: 'Firebase',
