@@ -1,5 +1,6 @@
 {
   "projects": {
-    "staging": "joshlevyportfolio"
+    "staging": "joshlevyportfolio",
+    "default": "joshlevytech"
   }
 }
