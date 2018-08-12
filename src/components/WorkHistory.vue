@@ -103,6 +103,15 @@ export default {
   border-bottom: 1px solid lightgrey;
 }
 
+.table th {
+  font-size: 18px !important;
+}
+
+.table td {
+  vertical-align: middle;
+  font-size: 18px;
+}
+
 @media (max-width: 768px) {
   .site-table {
     display: block;
@@ -117,6 +126,7 @@ export default {
 .btn-primary {
   background-color: #ae0001;
   border: none;
+  font-size: 16px;
 }
 
 .btn-primary:hover {
@@ -132,5 +142,9 @@ export default {
 .btn-primary:active {
   background-color: #222222;
   border: none;
+}
+
+ul#Jobs li {
+  font-size: 16px;
 }
 </style>
