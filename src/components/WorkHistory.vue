@@ -28,13 +28,13 @@ export default {
       items: [
         {
           company: "Learn to Code - Galvanize",
-          title: "Co-Owner/Lead Instructor",
+          title: "Volunteer Lead Instructor",
           employment_date: "April 2018 - September 2018",
           details: [
-            `One of three owners of the free, student-run Learn-to-Code program conducted weekly`,
+            `One of three volunteer lead instructors of a weekly, student-run Learn to Code program`,
             `Delivered engaging classroom lectures on HTML, CSS and VanillaJS to students brand new to coding`,
-            `Created and maintain Learn-to-Code website, providing program agendas and overall structure`,
-            `Helped manage and cultivate a team of future development stars - the TA's`
+            `Created and maintained Learn-to-Code website, providing program agendas and overall structure`,
+            `Helped cultivate a team of future development stars - the TA's`
           ]
         },
         {
@@ -44,7 +44,7 @@ export default {
           details: [
             `Redesigned company website. yielding a 300% increase in traffic and 200% increase in lead conversions`,
             `Managed internal infrastructure hosted on seven Google Cloud servers, supporting 50 employees in three locations`,
-            `Overhauled company eCommerce site, increasing eCommerce revenue by 57%`,
+            `Overhauled company eCommerce site, increasing revenue by 53%`,
             `Managed SEM campaigns, increasing traffic by 150% while reducing SEM costs by over 20%`
           ]
         },
@@ -53,8 +53,8 @@ export default {
           title: "Web Developer/Designer",
           employment_date: "August 2017 - March 2018",
           details: [
-            `Created three separate client sites in WordPress, adhering to strict deadlines`,
-            `Created and managed over 20 SEM and paid advertising campaigns, yielding a 57% increase in ad revenue for clients`
+            `Developed and maintained four separate client sites in WordPress/PHP, adhering to strict deadlines`,
+            `Created and managed over 20 SEM and paid advertising campaigns, yielding a 59% increase in ad revenue for clients`
           ]
         },
         {
@@ -63,7 +63,7 @@ export default {
           employment_date: "April 2014 - September 2017",
           details: [
             `Developed a full-stack responsive web app`,
-            `Utilized AngularJS, Node.js, Parse (MongoDB), Bootstrap, Jade/Pug and Grunt`
+            `Utilized AngularJS, Node.js, Parse (MongoDB), Passport.js, Bootstrap, Jade/Pug and Grunt`
           ]
         },
         {

@@ -87,24 +87,30 @@ exports.seed = function (knex, Promise) {
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/KnexJS-Logo.png'
       }, {
         id: 15,
+        name: 'RestAPI',
+        type: 'Back-End',
+        experience: '1-3 Years',
+        img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/RestAPI-Logo.png'
+      }, {
+        id: 16,
         name: 'Git',
         type: 'Back-End',
         experience: '3-5 years',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Git-Logo.png'
       }, {
-        id: 16,
+        id: 17,
         name: 'Bootstrap',
         type: 'Front-End',
         experience: '3-5 years',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Bootstrap-Logo.png'
       }, {
-        id: 17,
+        id: 18,
         name: 'JavaScript',
         type: 'Front-End',
         experience: '3-5 years',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/JavaScript-Logo.jpg'
       }, {
-        id: 18,
+        id: 19,
         name: 'HTML5 & CSS3',
         type: 'Front-End',
         experience: '3-5 years',
