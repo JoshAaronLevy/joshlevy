@@ -81,7 +81,7 @@ exports.seed = function (knex, Promise) {
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Heroku-Logo.png'
       }, {
         id: 14,
-        name: 'Knex',
+        name: 'Knex.js',
         type: 'Back-End',
         experience: '>1 year',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/KnexJS-Logo.png'
