@@ -1,7 +1,7 @@
 <template>
   <b-row lg="12" sm="12">
     <section class="main-hero">
-      <b-col lg="6" sm="12">
+      <b-col lg="6" sm="12" md="12" xs="12" class="hero-container d-none d-lg-inline">
         <section class="hero-designer">
           <div class="hero-inner">
             <h1 class="animate fadeInLeft">Designer</h1>
@@ -9,7 +9,7 @@
           </div>
         </section>
       </b-col>
-      <b-col lg="6" sm="12">
+      <b-col lg="6" sm="12" md="12" xs="12" class="hero-container d-none d-lg-inline">
         <section class="hero-developer">
           <div class="hero-inner">
             <h1 class="animate fadeInRight">Developer</h1>
@@ -27,6 +27,12 @@
   padding-left: 0px !important;
   padding-right: 0px !important;
   margin-top: 100px;
+  width: 100%;
+}
+
+.hero-container {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 .hero-designer {
@@ -41,7 +47,7 @@
   background-position: left top;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  width: 50%;
+  width: 100%;
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
@@ -58,7 +64,7 @@
   background-position: right top;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  width: 50%;
+  width: 100%;
   padding-left: 0px !important;
   padding-right: 0px !important;
 }
