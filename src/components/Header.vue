@@ -59,11 +59,6 @@
   margin-left: 10px;
 }
 
-/* .navbar-nav {
-  width: 100%;
-  padding-right: 75px;
-} */
-
 .navbar-brand {
   padding-bottom: 0px;
   padding-top: 0px;
@@ -90,6 +85,7 @@ a.nav-link {
   color: #222 !important;
   align-items: center;
   text-decoration: none;
+  font-size: 18px;
   font-weight: 700;
   -webkit-transition: color, background-color, 500ms;
   transition: color, background-color, 500ms;

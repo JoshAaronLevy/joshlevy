@@ -5,7 +5,9 @@
     <article class="timeline-entry">
       <div class="timeline-entry-inner">
         <time class="timeline-time" datetime="2014-01-10T03:45"><span>July 2018</span></time>
-        <div class="timeline-icon bg-red"></div>
+        <div class="timeline-icon bg-red">
+          <icon name="code" label="Source Code"></icon>
+        </div>
         <div class="timeline-label">
           <h2><a href="https://bad-movie-night.firebaseapp.com/" target="_blank">Bad Movie Night</a></h2>
           <p>Serve data to end-users with custom API's.</p>
@@ -16,7 +18,7 @@
       <div class="timeline-entry-inner">
         <time class="timeline-time" datetime="2014-01-10T03:45"><span>July 2018</span></time>
         <div class="timeline-icon bg-red">
-          <i class="entypo-suitcase"></i>
+          <icon name="code" label="Source Code"></icon>
         </div>
         <div class="timeline-label">
           <h2><a href="https://react-dinosaurs-1.herokuapp.com/" target="_blank">React Dinosaur Jobs</a></h2>
@@ -28,7 +30,7 @@
       <div class="timeline-entry-inner">
         <time class="timeline-time" datetime="2014-01-10T03:45"><span>July 2018</span></time>
         <div class="timeline-icon bg-red">
-          <i class="entypo-suitcase"></i>
+          <icon name="code" label="Source Code"></icon>
         </div>
         <div class="timeline-label">
           <h2><a href="https://angular-dinosaurs-one.firebaseapp.com/" target="_blank">Angular Dinosaur Jobs</a></h2>
@@ -40,7 +42,7 @@
       <div class="timeline-entry-inner">
         <time class="timeline-time" datetime="2014-01-10T03:45"><span>June 2018</span></time>
         <div class="timeline-icon bg-red">
-          <i class="entypo-camera"></i>
+          <icon name="code" label="Source Code"></icon>
         </div>
         <div class="timeline-label">
           <h2><a href="https://lovely-calculator.firebaseapp.com/" target="_blank">JavaScript Calculator</a></h2>
@@ -59,7 +61,6 @@
     </div>
   <b-modal id="modal1" size="lg" title="Bad Movie Night">
     <p class="my-4">View:</p>
-    <!-- <font-awesome-icon icon="Git" /> -->
   </b-modal>
   </div>
 </template>
@@ -84,6 +85,11 @@ export default {
 </script>
 
 <style scoped>
+.fa-icon {
+  min-width: 18px;
+  min-height: 14px;
+  margin-bottom: 3px;
+}
 .site-table {
   padding-left: 50px;
   padding-right: 50px;
@@ -408,7 +414,7 @@ img {
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p {
   color: #222;
   font-family: "Noto Sans", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   margin: 0;
   line-height: 1.428571429;
 }
@@ -418,7 +424,7 @@ img {
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 {
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 10px;
   font-weight: 700;
 }

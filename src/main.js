@@ -3,21 +3,12 @@ import App from './App.vue'
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import 'vue-awesome/icons'
+import Icon from 'vue-awesome/components/Icon'
 import router from './router'
 import store from './store'
-import {
-  library
-} from '@fortawesome/fontawesome-svg-core'
-import {
-  faGreaterThan
-} from '@fortawesome/free-solid-svg-icons'
-import {
-  FontAwesomeIcon
-} from '@fortawesome/vue-fontawesome'
 
-library.add(faGreaterThan)
-
-Vue.component('font-awesome-icon', FontAwesomeIcon)
+Vue.component('icon', Icon);
 
 Vue.config.productionTip = false
 

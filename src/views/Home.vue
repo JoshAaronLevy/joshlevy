@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <!-- <Preloader/> -->
     <Header/>
     <Hero/>
     <div id="aboutMe" class="scroll-tag"></div>
@@ -27,8 +26,6 @@
 
 <script>
 // @ is an alias to /src
-// import HelloWorld from "@/components/HelloWorld.vue";
-// import Preloader from "@/components/Preloader.vue";
 import Header from "@/components/Header.vue";
 import Hero from "@/components/Hero.vue";
 import AboutMe from "@/components/AboutMe.vue";
@@ -42,7 +39,6 @@ import Footer from "@/components/Footer.vue";
 export default {
   name: "home",
   components: {
-    // Preloader,
     Header,
     Hero,
     AboutMe,
