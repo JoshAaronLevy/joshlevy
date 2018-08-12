@@ -1,6 +1,11 @@
 {
-  "name": "joshaaronlevy",
-  "version": "0.1.0",
+  "name": "josh-levy-portfolio",
+  "description": "Portfolio featuring skills, projects, work history, education and downloadable resume.",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoshAaronLevy/portfolio"
+  },
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
