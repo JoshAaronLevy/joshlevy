@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <router-view :name='home'></router-view>
     <Header/>
     <Hero/>
     <div id="aboutMe" class="scroll-tag"></div>
