@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <router-view :name='home'></router-view>
+    <router-view></router-view>
     <Header/>
     <Hero/>
     <div id="aboutMe" class="scroll-tag"></div>
@@ -27,7 +27,7 @@
 
 <script>
 // @ is an alias to /src
-// import router from "../router";
+import router from "../router";
 import Header from "@/components/Header.vue";
 import Hero from "@/components/Hero.vue";
 import AboutMe from "@/components/AboutMe.vue";

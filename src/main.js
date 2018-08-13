@@ -1,7 +1,5 @@
 import Vue from 'vue'
 import App from './App.vue'
-import Home from './views/Home.vue'
-import VueRouter from '../node_modules/vue-router'
 import router from './router'
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
@@ -14,22 +12,10 @@ Vue.component('icon', Icon);
 
 Vue.config.productionTip = false
 
-Vue.use(BootstrapVue, VueRouter, router);
-
-const route = new VueRouter({
-  mode: 'history',
-  base: __dirname,
-  routes: [{
-    path: '/',
-    name: 'home',
-    component: Home
-  }]
-})
+Vue.use(BootstrapVue);
 
 new Vue({
-  VueRouter,
   router,
-  route,
   store,
   render: h => h(App)
 }).$mount('#app')
