@@ -27,7 +27,6 @@
 
 <script>
 // @ is an alias to /src
-import router from "../router";
 import Header from "@/components/Header.vue";
 import Hero from "@/components/Hero.vue";
 import AboutMe from "@/components/AboutMe.vue";
@@ -41,7 +40,6 @@ import Footer from "@/components/Footer.vue";
 export default {
   name: "home",
   components: {
-    // router,
     Header,
     Hero,
     AboutMe,

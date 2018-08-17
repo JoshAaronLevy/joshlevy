@@ -2,6 +2,18 @@
   <div class="container">
     <div class="row">
       <div class="timeline-centered">
+    <article class="timeline-entry left-aligned">
+      <div class="timeline-entry-inner">
+        <time class="timeline-time" datetime="2014-01-10T03:45"><span>August 2018</span></time>
+        <div class="timeline-icon bg-red">
+          <icon name="code" label="Source Code"></icon>
+        </div>
+        <div class="timeline-label">
+          <h2><a href="https://g90-videos.firebaseapp.com/" target="_blank">Dev Videos</a></h2>
+          <p>Find developer videos easily with intuitive filters. Built with Vue.js and MongoDB.</p>
+        </div>
+      </div>
+    </article>
     <article class="timeline-entry">
       <div class="timeline-entry-inner">
         <time class="timeline-time" datetime="2014-01-10T03:45"><span>July 2018</span></time>
@@ -10,7 +22,7 @@
         </div>
         <div class="timeline-label">
           <h2><a href="https://bad-movie-night.firebaseapp.com/" target="_blank">Bad Movie Night</a></h2>
-          <p>Serve data to end-users with custom API's.</p>
+          <p>Find a bad movie to watch. Serve data to end-users with custom API's.</p>
         </div>
       </div>
     </article>
@@ -67,11 +79,11 @@
 
 <script>
 export default {
-  name: "Projects",
+  name: 'Projects',
   data() {
     return {
       projects: [],
-      projectsURL: "https://joshlevy.herokuapp.com/projects"
+      projectsURL: 'https://joshlevy.herokuapp.com/projects'
     };
   },
   mounted() {
@@ -140,7 +152,7 @@ img {
 
 .timeline-centered:before,
 .timeline-centered:after {
-  content: " ";
+  content: ' ';
   display: table;
 }
 
@@ -150,7 +162,7 @@ img {
 
 .timeline-centered:before,
 .timeline-centered:after {
-  content: " ";
+  content: ' ';
   display: table;
 }
 
@@ -159,7 +171,7 @@ img {
 }
 
 .timeline-centered:before {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   width: 4px;
@@ -180,7 +192,7 @@ img {
 
 .timeline-centered .timeline-entry:before,
 .timeline-centered .timeline-entry:after {
-  content: " ";
+  content: ' ';
   display: table;
 }
 
@@ -190,7 +202,7 @@ img {
 
 .timeline-centered .timeline-entry:before,
 .timeline-centered .timeline-entry:after {
-  content: " ";
+  content: ' ';
   display: table;
 }
 
@@ -257,7 +269,7 @@ img {
 
 .timeline-centered .timeline-entry .timeline-entry-inner:before,
 .timeline-centered .timeline-entry .timeline-entry-inner:after {
-  content: " ";
+  content: ' ';
   display: table;
 }
 
@@ -267,7 +279,7 @@ img {
 
 .timeline-centered .timeline-entry .timeline-entry-inner:before,
 .timeline-centered .timeline-entry .timeline-entry-inner:after {
-  content: " ";
+  content: ' ';
   display: table;
 }
 
@@ -397,7 +409,7 @@ img {
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label:after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   width: 0;
@@ -413,7 +425,7 @@ img {
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2,
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label p {
   color: #222;
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   font-size: 16px;
   margin: 0;
   line-height: 1.428571429;
