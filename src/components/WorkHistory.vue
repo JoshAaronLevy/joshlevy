@@ -21,15 +21,15 @@
 
 <script>
 export default {
-  name: "Jobs",
+  name: 'Jobs',
   data() {
     return {
-      fields: ["company", "title", "employment_date", "details"],
+      fields: ['company', 'title', 'employment_date', 'details'],
       items: [
         {
-          company: "Learn to Code - Galvanize",
-          title: "Volunteer Lead Instructor",
-          employment_date: "April 2018 - September 2018",
+          company: 'Learn to Code - Galvanize',
+          title: 'Co-Organizer/Lead Instructor',
+          employment_date: 'April 2018 - September 2018',
           details: [
             `One of three volunteer lead instructors of a weekly, student-run Learn to Code program`,
             `Delivered engaging classroom lectures on HTML, CSS and VanillaJS to students brand new to coding`,
@@ -38,9 +38,9 @@ export default {
           ]
         },
         {
-          company: "Fireplace Warehouse",
-          title: "Marketing/IT/Web Developer",
-          employment_date: "August 2017 - March 2018",
+          company: 'Fireplace Warehouse',
+          title: 'Marketing/IT/Web Developer',
+          employment_date: 'August 2017 - March 2018',
           details: [
             `Redesigned company website. yielding a 300% increase in traffic and 200% increase in lead conversions`,
             `Managed internal infrastructure hosted on seven Google Cloud servers, supporting 50 employees in three locations`,
@@ -49,27 +49,27 @@ export default {
           ]
         },
         {
-          company: "Freelance",
-          title: "Web Developer/Designer",
-          employment_date: "August 2017 - March 2018",
+          company: 'Freelance',
+          title: 'Web Developer/Designer',
+          employment_date: 'August 2017 - March 2018',
           details: [
             `Developed and maintained four separate client sites in WordPress/PHP, adhering to strict deadlines`,
             `Created and managed over 20 SEM and paid advertising campaigns, yielding a 59% increase in ad revenue for clients`
           ]
         },
         {
-          company: "Hillside Software",
-          title: "Full-Stack Developer",
-          employment_date: "April 2014 - September 2017",
+          company: 'Hillside Software',
+          title: 'Full-Stack Developer',
+          employment_date: 'April 2014 - September 2017',
           details: [
             `Developed a full-stack responsive web app`,
             `Utilized AngularJS, Node.js, Parse (MongoDB), Passport.js, Bootstrap, Jade/Pug and Grunt`
           ]
         },
         {
-          company: "mGive - Mobile Accord",
-          title: "Account Strategist",
-          employment_date: "April 2013 - March 2014",
+          company: 'mGive - Mobile Accord',
+          title: 'Account Strategist',
+          employment_date: 'April 2013 - March 2014',
           details: [
             `Assisted a wide variety of non-profit organizations with over 50 fundraising and outreach campaigns`,
             `Managed over 20 fundraising campaigns responsible for raising over $30 million for clients`,
@@ -77,9 +77,9 @@ export default {
           ]
         },
         {
-          company: "Hillside Software",
-          title: "Support, Marketing and Training Manager",
-          employment_date: "December 2004 - March 2013",
+          company: 'Hillside Software',
+          title: 'Support, Marketing and Training Manager',
+          employment_date: 'December 2004 - March 2013',
           details: [
             `Trained current and prospective clients on using the software in both small and large settings with over 100 presentations delivered`,
             `Provided assistance to real estate agents on how to continuously implement the company’s products focused on their unique business needs`,
