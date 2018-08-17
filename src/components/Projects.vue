@@ -10,7 +10,7 @@
         </div>
         <div class="timeline-label">
           <h2><a href="https://g90-videos.firebaseapp.com/" target="_blank">Dev Videos</a></h2>
-          <p>Find developer videos easily with intuitive filters. Built with Vue.js and MongoDB.</p>
+          <p>Full CRUD. Find developer videos easily with intuitive filters. Built with Vue.js and MongoDB.</p>
         </div>
       </div>
     </article>
