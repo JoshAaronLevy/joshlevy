@@ -4,7 +4,7 @@
       <div class="timeline-centered">
     <article class="timeline-entry left-aligned">
       <div class="timeline-entry-inner">
-        <time class="timeline-time" datetime="2014-01-10T03:45"><span>August 2018</span></time>
+        <time class="timeline-time-extra" datetime="2014-01-10T03:45"><span>August 2018</span></time>
         <div class="timeline-icon bg-red">
           <icon name="code" label="Source Code"></icon>
         </div>
@@ -229,6 +229,15 @@ img {
   .timeline-time {
   left: auto;
   right: -100px;
+  text-align: left;
+}
+
+.timeline-centered
+  .timeline-entry.left-aligned
+  .timeline-entry-inner
+  .timeline-time-extra {
+  left: auto;
+  right: -120px;
   text-align: left;
 }
 
