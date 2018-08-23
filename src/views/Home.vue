@@ -21,24 +21,26 @@
     <div id="resume" class="scroll-tag"></div>
     <h2 class="section-heading">Resume</h2>
     <Resume/>
-    <Footer />
+    <NewPost/>
+    <Footer/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Header from "@/components/Header.vue";
-import Hero from "@/components/Hero.vue";
-import AboutMe from "@/components/AboutMe.vue";
-import Skills from "@/components/Skills.vue";
-import Projects from "@/components/Projects.vue";
-import WorkHistory from "@/components/WorkHistory.vue";
-import Education from "@/components/Education.vue";
-import Resume from "@/components/Resume.vue";
-import Footer from "@/components/Footer.vue";
+import Header from '@/components/Header.vue';
+import Hero from '@/components/Hero.vue';
+import AboutMe from '@/components/AboutMe.vue';
+import Skills from '@/components/Skills.vue';
+import Projects from '@/components/Projects.vue';
+import WorkHistory from '@/components/WorkHistory.vue';
+import Education from '@/components/Education.vue';
+import Resume from '@/components/Resume.vue';
+import NewPost from '@/components/NewPost.vue';
+import Footer from '@/components/Footer.vue';
 
 export default {
-  name: "home",
+  name: 'home',
   components: {
     Header,
     Hero,
@@ -48,6 +50,7 @@ export default {
     WorkHistory,
     Education,
     Resume,
+    NewPost,
     Footer
   }
 };

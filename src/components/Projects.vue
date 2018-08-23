@@ -23,6 +23,7 @@
         <div class="timeline-label">
           <h2><a href="https://bad-movie-night.firebaseapp.com/" target="_blank">Bad Movie Night</a></h2>
           <p>Find a bad movie to watch. Serve data to end-users with custom API's.</p>
+          <font-awesome-icon icon="link" size="lg" />
         </div>
       </div>
     </article>
