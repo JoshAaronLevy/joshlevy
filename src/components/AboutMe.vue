@@ -17,7 +17,7 @@
         </b-col>
       </b-row>
     </div>
-    <div class="d-md-none">
+    <div class="d-lg-none">
       <b-row>
         <b-col lg="8">
           <p class="main-paragraph">I believe we're living in the most exciting time for technology. Many of the biggest challenges we face now are going to be solved by developers. I am a junior/mid-level full stack web developer with 5 years of experience.</p>
