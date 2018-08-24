@@ -3,8 +3,8 @@
     <router-view></router-view>
     <Header/>
     <Hero/>
-    <div id="aboutMe" class="scroll-tag"></div>
-    <h2 class="section-heading">About Me</h2>
+    <div id="aboutMe" class="about-tag"></div>
+    <h2 class="about-heading">About Me</h2>
     <AboutMe/>
     <div id="skills" class="scroll-tag"></div>
     <h2 class="section-heading">Skills</h2>
@@ -57,8 +57,38 @@ export default {
 </script>
 
 <style scoped>
+@media (max-width: 668px) {
+  .about-tag {
+    padding-top: 0px !important;
+    padding-bottom: 30px;
+  }
+  .about-heading {
+    text-align: center;
+    padding-top: 10px !important;
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 1024px) {
+  .large-screens {
+    visibility: hidden;
+  }
+}
+@media (min-width: 1025px) {
+  .small-screens {
+    visibility: hidden;
+  }
+}
+.about-tag {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .scroll-tag {
   padding-top: 30px;
+  padding-bottom: 30px;
+}
+.about-heading {
+  text-align: center;
+  padding-top: 50px;
   padding-bottom: 30px;
 }
 .section-heading {
