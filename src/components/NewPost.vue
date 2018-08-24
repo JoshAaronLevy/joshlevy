@@ -5,7 +5,8 @@
       v-model="content" 
       :config="config" 
       @blur="onBlur($event)" 
-      @focus="onFocus($event)" />
+      @focus="onFocus($event)"
+    />
   </div>
 </template>
 
@@ -20,7 +21,31 @@ export default {
       content: '',
       config: {
         toolbar: [
-          ['Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript']
+          [
+            'Font',
+            'Format',
+            'FontSize',
+            '-',
+            'Cut',
+            'Copy',
+            'Paste',
+            'PasteText',
+            '-',
+            'Bold',
+            'Italic',
+            'Underline',
+            '-',
+            'NumberedList',
+            'BulletedList',
+            'Outdent',
+            'Indent',
+            '-',
+            'Link',
+            'Unlink',
+            'Image',
+            'SpecialChar',
+            'Source'
+          ]
         ],
         height: 300
       }
