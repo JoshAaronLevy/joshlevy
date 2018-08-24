@@ -21,7 +21,7 @@
     <div id="resume" class="scroll-tag"></div>
     <h2 class="section-heading">Resume</h2>
     <Resume/>
-    <NewPost/>
+    <!-- <NewPost/> -->
     <Footer/>
   </div>
 </template>
@@ -36,7 +36,7 @@ import Projects from '@/components/Projects.vue';
 import WorkHistory from '@/components/WorkHistory.vue';
 import Education from '@/components/Education.vue';
 import Resume from '@/components/Resume.vue';
-import NewPost from '@/components/NewPost.vue';
+// import NewPost from '@/components/NewPost.vue';
 import Footer from '@/components/Footer.vue';
 
 export default {
@@ -50,7 +50,7 @@ export default {
     WorkHistory,
     Education,
     Resume,
-    NewPost,
+    // NewPost,
     Footer
   }
 };
