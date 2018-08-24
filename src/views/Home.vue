@@ -57,30 +57,17 @@ export default {
 </script>
 
 <style scoped>
-@media (max-width: 668px) {
-  .about-tag {
-    padding-top: 0px !important;
-    padding-bottom: 30px;
-  }
-  .about-heading {
-    text-align: center;
-    padding-top: 10px !important;
-    padding-bottom: 30px;
-  }
-}
 @media (max-width: 1024px) {
-  .large-screens {
-    visibility: hidden;
+  .about-tag {
+    padding-top: 70px;
+    padding-bottom: 30px;
   }
 }
 @media (min-width: 1025px) {
-  .small-screens {
-    visibility: hidden;
+  .about-tag {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
-}
-.about-tag {
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 .scroll-tag {
   padding-top: 30px;
@@ -90,10 +77,14 @@ export default {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 30px;
+  font-weight: 700;
+  color: #ae0001;
 }
 .section-heading {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 30px;
+  font-weight: 700;
+  color: #ae0001;
 }
 </style>
