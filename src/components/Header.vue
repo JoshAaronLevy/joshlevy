@@ -16,7 +16,7 @@
         </b-navbar-nav>
       </b-collapse>
       <a
-        href="https://github.com/JoshAaronLevy/portfolio"
+        href="https://github.com/JoshAaronLevy/"
         target="_blank"
         class="github-corner"
         aria-label="View source on Github"

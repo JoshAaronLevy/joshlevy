@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="timeline-centered">
-    <article class="timeline-entry left-aligned">
+    <article class="timeline-entry">
       <div class="timeline-entry-inner">
         <time class="timeline-time" datetime="2014-01-10T03:45"><span>Aug 2018</span></time>
         <div class="timeline-icon bg-red">
@@ -11,6 +11,18 @@
         <div class="timeline-label">
           <h2><a href="https://g90-videos.firebaseapp.com/" target="_blank">Dev Videos</a></h2>
           <p>Full CRUD. Find developer videos easily with intuitive filters. Built with Vue.js and MongoDB.</p>
+        </div>
+      </div>
+    </article>
+    <article class="timeline-entry left-aligned">
+      <div class="timeline-entry-inner">
+        <time class="timeline-time" datetime="2014-01-10T03:45"><span>Aug 2018</span></time>
+        <div class="timeline-icon bg-red">
+          <icon name="code" label="Source Code"></icon>
+        </div>
+        <div class="timeline-label">
+          <h2><a href="https://github.com/JoshAaronLevy/portfolio/" target="_blank">Portfolio</a></h2>
+          <p>Full CRUD Web Developer portfolio. Built with Vue.js and PostgreSQL.</p>
         </div>
       </div>
     </article>
