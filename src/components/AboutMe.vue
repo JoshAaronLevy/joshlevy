@@ -11,8 +11,8 @@
           <p>I take pride in combining my skills to develop apps with the highest standards of security, stability and scalability. But when I'm not geeking out over dev tech, you can catch me geeking out over Hi-Fi audio, or spending a day at my favorite place on earth - a tennis court.</p>
           <div>
             <p class="inline">Find me on:</p>
-            <b-button class="github-button" href="https://github.com/JoshAaronLevy" target="_blank">GitHub</b-button>
-            <b-button variant="primary" href="https://linkedin.com/in/JoshAaronLevy" target="_blank">LinkedIn</b-button>
+            <b-button class="social-button github-button" href="https://github.com/JoshAaronLevy" target="_blank">GitHub</b-button>
+            <b-button class="social-button linkedin-button" href="https://linkedin.com/in/JoshAaronLevy" target="_blank">LinkedIn</b-button>
           </div>
         </b-col>
       </b-row>
@@ -30,8 +30,8 @@
           <a class="expand-toggle" @click="showCollapse = !showCollapse" aria-controls="collapseAbout" :class="showCollapse ? 'collapsed' : null" :aria-expanded="showCollapse ? 'true' : 'false'" v-b-toggle.collapseAbout>Read {{ showCollapse ? 'Less' : 'More'}}</a>
           <div class="connect-section">
             <p class="inline">Find me on:</p>
-            <b-button class="github-button" href="https://github.com/JoshAaronLevy" target="_blank">GitHub</b-button>
-            <b-button variant="primary" href="https://linkedin.com/in/JoshAaronLevy" target="_blank">LinkedIn</b-button>
+            <b-button class="social-button github-button" href="https://github.com/JoshAaronLevy" target="_blank">GitHub</b-button>
+            <b-button class="social-button linkedin-button" href="https://linkedin.com/in/JoshAaronLevy" target="_blank">LinkedIn</b-button>
           </div>
         </b-col>
       </b-row>
@@ -67,12 +67,21 @@ p {
 .connect-section {
   margin-top: 15px;
 }
+p.inline {
+  font-weight: 700;
+}
 .inline {
   display: inline;
 }
+.social-button {
+  font-weight: 700 !important;
+}
+.linkedin-button {
+  background-color: #0077B5;
+}
 .github-button {
   background-color: #222;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 img {
   width: 100%;
