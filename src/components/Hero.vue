@@ -42,7 +42,7 @@
   align-items: center;
   text-align: center;
   color: white;
-  background-image: url("../assets/html-sample.png");
+  background-image: url('https://s3-us-west-2.amazonaws.com/joshlevyportfolio/html-sample.jpg');
   background-size: 51%;
   background-position: left top;
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@
   align-items: center;
   text-align: center;
   color: white;
-  background-image: url("../assets/javascript-sample.png");
+  background-image: url('https://s3-us-west-2.amazonaws.com/joshlevyportfolio/javascript-sample.jpg');
   background-size: 51%;
   background-position: right top;
   background-repeat: no-repeat;
@@ -77,7 +77,7 @@
   align-items: center;
   text-align: center;
   color: white;
-  background-image: url("../assets/javascript-heading.png");
+  background-image: url('../assets/javascript-heading.png');
   background-size: 100%;
   background-position: center center;
   background-repeat: no-repeat;
