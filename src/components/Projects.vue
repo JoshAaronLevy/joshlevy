@@ -524,12 +524,4 @@ img {
   i:hover {
   color: #222;
 }
-
-.popover {
-  font-size: 16px !important;
-}
-
-.popover-body {
-  font-size: 16px !important;
-}
 </style>
