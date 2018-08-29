@@ -87,7 +87,7 @@ exports.seed = function (knex, Promise) {
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/KnexJS-Logo.png'
       }, {
         id: 15,
-        name: 'RestAPI',
+        name: 'RESTful API',
         type: 'Back-End',
         experience: '1-3 Years',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/RestAPI-Logo.png'
