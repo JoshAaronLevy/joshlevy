@@ -11,6 +11,9 @@
         <div class="timeline-label">
           <h2><a href="https://g90-videos.firebaseapp.com/" target="_blank">Dev Videos</a></h2>
           <p>Full CRUD. Find developer videos easily with intuitive filters. Built with Vue.js and MongoDB.</p>
+          <a href="https://g90-videos.firebaseapp.com/" target="_blank"><i class="fas fa-link"></i></a>
+          <a href="https://github.com/JoshAaronLevy/gvideos-client" target="_blank"><i class="fab fa-github"></i></a>
+          <!-- <i class="fas fa-code"></i> -->
         </div>
       </div>
     </article>
@@ -23,6 +26,9 @@
         <div class="timeline-label">
           <h2><a href="https://github.com/JoshAaronLevy/portfolio/" target="_blank">Portfolio</a></h2>
           <p>Full CRUD Web Developer portfolio. Built with Vue.js and PostgreSQL.</p>
+          <a href="https://joshlevy.tech/" target="_blank"><i class="fas fa-link"></i></a>
+          <a href="https://github.com/JoshAaronLevy/portfolio" target="_blank"><i class="fab fa-github"></i></a>
+          <!-- <i class="fas fa-code"></i> -->
         </div>
       </div>
     </article>
@@ -35,7 +41,9 @@
         <div class="timeline-label">
           <h2><a href="https://bad-movie-night.firebaseapp.com/" target="_blank">Bad Movie Night</a></h2>
           <p>Find a bad movie to watch. Serve data to end-users with custom API's.</p>
-          <!-- <font-awesome-icon icon="link" size="lg" /> -->
+          <a href="https://bad-movie-night.firebaseapp.com/" target="_blank"><i class="fas fa-link"></i></a>
+          <a href="https://github.com/JoshAaronLevy/bad-movie-night" target="_blank"><i class="fab fa-github"></i></a>
+          <!-- <i class="fas fa-code"></i> -->
         </div>
       </div>
     </article>
@@ -48,6 +56,9 @@
         <div class="timeline-label">
           <h2><a href="https://react-dinosaurs-1.herokuapp.com/" target="_blank">React Dinosaur Jobs</a></h2>
           <p>First experience with React. Created job posting site using state management.</p>
+          <a href="https://react-dinosaurs-1.herokuapp.com/" target="_blank"><i class="fas fa-link"></i></a>
+          <a href="https://github.com/JoshAaronLevy/react-dinosaurs-1" target="_blank"><i class="fab fa-github"></i></a>
+          <!-- <i class="fas fa-code"></i> -->
         </div>
       </div>
     </article>
@@ -60,6 +71,9 @@
         <div class="timeline-label">
           <h2><a href="https://angular-dinosaurs-one.firebaseapp.com/" target="_blank">Angular Dinosaur Jobs</a></h2>
           <p>First experience with Angular 6. Created job posting site using state management.</p>
+          <a href="https://angular-dinosaurs-one.firebaseapp.com/" target="_blank"><i class="fas fa-link"></i></a>
+          <a href="https://github.com/JoshAaronLevy/angular-dinosaurs-one" target="_blank"><i class="fab fa-github"></i></a>
+          <!-- <i class="fas fa-code"></i> -->
         </div>
       </div>
     </article>
@@ -72,6 +86,9 @@
         <div class="timeline-label">
           <h2><a href="https://lovely-calculator.firebaseapp.com/" target="_blank">JavaScript Calculator</a></h2>
           <p>Interactive Calculator made with JavaScript DOM manipulation.</p>
+          <a href="https://lovely-calculator.firebaseapp.com/" target="_blank"><i class="fas fa-link"></i></a>
+          <a href="https://github.com/JoshAaronLevy/levy-calculator" target="_blank"><i class="fab fa-github"></i></a>
+          <!-- <i class="fas fa-code"></i> -->
         </div>
       </div>
     </article>
@@ -267,6 +284,7 @@ img {
   .timeline-label {
   margin-left: 0;
   margin-right: 70px;
+  text-align: right;
 }
 
 .timeline-centered
@@ -489,5 +507,21 @@ img {
   opacity: 0.6;
   -ms-filter: alpha(opacity=60);
   filter: alpha(opacity=60);
+}
+
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label i {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #ae0001;
+}
+
+.timeline-centered
+  .timeline-entry
+  .timeline-entry-inner
+  .timeline-label
+  i:hover {
+  color: #222;
 }
 </style>
