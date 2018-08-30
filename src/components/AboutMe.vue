@@ -94,11 +94,17 @@ p.inline {
   margin-left: 7px;
   font-size: 32px;
 }
+.fa-linkedin:hover {
+  color: #ae0001;
+}
 .fa-github {
   color: #222;
   margin-right: 7px;
   margin-left: 7px;
   font-size: 32px;
+}
+.fa-github:hover {
+  color: #ae0001;
 }
 img {
   width: 100%;

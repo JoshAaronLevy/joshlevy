@@ -5,7 +5,7 @@
         <section class="hero-designer">
           <div class="hero-inner">
             <h1 class="animate fadeInLeft">Designer</h1>
-            <h2>React/Vue.js/Angular</h2>
+            <h2>Vue.js/React/Angular</h2>
           </div>
         </section>
       </b-col>
@@ -13,7 +13,7 @@
         <section class="hero-developer">
           <div class="hero-inner">
             <h1 class="animate fadeInRight">Developer</h1>
-            <h2>JavaScript/Node.js/SQL</h2>
+            <h2>Node.js/Express/SQL</h2>
           </div>
         </section>
       </b-col>
@@ -46,19 +46,19 @@
   }
 
   .hero-container {
-    /* max-width: 100%; */
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
 
   .hero-designer {
-    height: 500px;
+    min-height: 500px;
+    max-height: 700px;
     display: inline-flex;
     justify-content: flex-end;
     align-items: center;
     text-align: center;
     color: white;
-    background-image: url('https://s3-us-west-2.amazonaws.com/joshlevyportfolio/html-sample.jpg');
+    background-image: url('https://s3-us-west-2.amazonaws.com/joshlevyportfolio/vue-sample.jpg');
     background-size: 51%;
     background-position: left top;
     background-repeat: no-repeat;
@@ -69,13 +69,14 @@
   }
 
   .hero-developer {
-    height: 500px;
+    min-height: 500px;
+    max-height: 700px;
     display: inline-flex;
     justify-content: flex-start;
     align-items: center;
     text-align: center;
     color: white;
-    background-image: url('https://s3-us-west-2.amazonaws.com/joshlevyportfolio/javascript-sample.jpg');
+    background-image: url('https://s3-us-west-2.amazonaws.com/joshlevyportfolio/express-sample.jpg');
     background-size: 51%;
     background-position: right top;
     background-repeat: no-repeat;

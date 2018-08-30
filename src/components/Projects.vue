@@ -479,6 +479,7 @@ img {
   font-size: 18px;
   margin-bottom: 10px;
   font-weight: 700;
+  color: #ae0001;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
