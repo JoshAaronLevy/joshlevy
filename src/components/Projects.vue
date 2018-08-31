@@ -165,11 +165,11 @@ img {
   height: auto;
   line-height: 1.428571429;
   max-width: 100%;
-  moz-transition: all 0.2s ease-in-out;
-  o-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
   padding: 2px;
   transition: all 0.2s ease-in-out;
-  webkit-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
 }
 .img-circle {
   border-radius: 50%;

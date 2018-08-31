@@ -51,8 +51,8 @@
   }
 
   .hero-designer {
-    min-height: 500px;
-    max-height: 700px;
+    min-height: 600px;
+    max-height: 1000px;
     display: inline-flex;
     justify-content: flex-end;
     align-items: center;
@@ -69,8 +69,8 @@
   }
 
   .hero-developer {
-    min-height: 500px;
-    max-height: 700px;
+    min-height: 600px;
+    max-height: 1000px;
     display: inline-flex;
     justify-content: flex-start;
     align-items: center;
