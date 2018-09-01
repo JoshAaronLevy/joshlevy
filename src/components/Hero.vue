@@ -103,16 +103,6 @@
     padding-right: 0px !important;
   }
 
-  /* .hero-heading .hero-inner h1 {
-    font-size: 5em;
-    margin-top: 0;
-    margin-bottom: 15px;
-    padding-bottom: 5px;
-    padding-left: 100px;
-    padding-right: 100px;
-    background: rgba(0, 0, 0, 0.8);
-  } */
-
   .hero-inner h1 {
     font-size: 5em;
     margin-top: 0;

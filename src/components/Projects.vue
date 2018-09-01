@@ -101,9 +101,6 @@
     </article>
   </div>
     </div>
-  <b-modal id="modal1" size="lg" title="Bad Movie Night">
-    <p class="my-4">View:</p>
-  </b-modal>
   </div>
 </template>
 
@@ -524,5 +521,6 @@ img {
   .timeline-label
   i:hover {
   color: #222;
+  cursor: pointer;
 }
 </style>
