@@ -22,6 +22,7 @@
     <h2 class="section-heading">Resume</h2>
     <Resume/>
     <!-- <NewPost/> -->
+    <Contact/>
     <Footer/>
   </div>
 </template>
@@ -37,6 +38,7 @@ import WorkHistory from '@/components/WorkHistory.vue';
 import Education from '@/components/Education.vue';
 import Resume from '@/components/Resume.vue';
 // import NewPost from '@/components/NewPost.vue';
+import Contact from '@/components/Contact.vue';
 import Footer from '@/components/Footer.vue';
 
 export default {
@@ -50,6 +52,7 @@ export default {
     WorkHistory,
     Education,
     Resume,
+    Contact,
     // NewPost,
     Footer
   }

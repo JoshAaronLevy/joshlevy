@@ -13,6 +13,7 @@
           <b-nav-item href="#workHistory">Work History</b-nav-item>
           <b-nav-item href="#education">Education</b-nav-item>
           <b-nav-item href="#resume">Resume</b-nav-item>
+          <b-nav-item v-b-modal.modallg>Contact</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
       <a
