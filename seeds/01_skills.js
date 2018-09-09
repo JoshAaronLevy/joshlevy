@@ -51,66 +51,102 @@ exports.seed = function (knex, Promise) {
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/MySQL-Logo.png'
       }, {
         id: 9,
+        name: 'C#',
+        type: 'Front-End',
+        experience: '>1 year',
+        img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Csharp-Logo.png'
+      }, {
+        id: 10,
+        name: 'PHP',
+        type: 'Front/Back-End',
+        experience: '3-5 years',
+        img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/PHP-Logo.png'
+      }, {
+        id: 11,
+        name: 'WordPress',
+        type: 'Front/Back-End',
+        experience: '3-5 years',
+        img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/WordPress-Logo.png'
+      }, {
+        id: 12,
         name: 'Docker',
         type: 'Back-End',
         experience: '1-3 years',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Docker-Logo.png'
       }, {
-        id: 10,
+        id: 13,
+        name: 'AWS',
+        type: 'Back-End',
+        experience: '1-3 years',
+        img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/AWS-Logo.png'
+      }, {
+        id: 14,
         name: 'Firebase',
         type: 'Back-End',
         experience: '>1 year',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Firebase-Logo.png'
       }, {
-        id: 11,
+        id: 15,
         name: 'Passport.js',
         type: 'Back-End',
         experience: '1-3 years',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/PassportJS-Logo.png'
       }, {
-        id: 12,
+        id: 16,
         name: 'Stripe',
         type: 'Back-End',
         experience: '>1 year',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Stripe-Logo.png'
       }, {
-        id: 13,
+        id: 17,
         name: 'Heroku',
         type: 'Back-End',
         experience: '>1 year',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Heroku-Logo.png'
       }, {
-        id: 14,
+        id: 18,
         name: 'Knex.js',
         type: 'Back-End',
         experience: '>1 year',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/KnexJS-Logo.png'
       }, {
-        id: 15,
+        id: 19,
         name: 'RESTful API',
         type: 'Back-End',
         experience: '1-3 Years',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/RestAPI-Logo.png'
       }, {
-        id: 16,
+        id: 20,
         name: 'Git',
         type: 'Back-End',
         experience: '3-5 years',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Git-Logo.png'
       }, {
-        id: 17,
-        name: 'Bootstrap',
+        id: 21,
+        name: 'JavaScript',
+        type: 'Front/Back-End',
+        experience: '3-5 years',
+        img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/JavaScript-Logo.jpg'
+      }, {
+        id: 22,
+        name: 'Bootstrap 4',
         type: 'Front-End',
         experience: '3-5 years',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Bootstrap-Logo.png'
       }, {
-        id: 18,
-        name: 'JavaScript',
+        id: 23,
+        name: 'SASS',
         type: 'Front-End',
         experience: '3-5 years',
-        img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/JavaScript-Logo.jpg'
+        img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/SASS-Logo.png'
       }, {
-        id: 19,
+        id: 24,
+        name: 'LESS',
+        type: 'Front-End',
+        experience: '3-5 years',
+        img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/LESS-Logo.png'
+      }, {
+        id: 25,
         name: 'HTML5 & CSS3',
         type: 'Front-End',
         experience: '3-5 years',
