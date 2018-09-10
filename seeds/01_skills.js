@@ -150,7 +150,7 @@ exports.seed = function (knex, Promise) {
         name: 'Bootstrap 3 & 4',
         type: 'Front-End',
         experience: '5-7 years',
-        img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Bootstrap-Logo.gif'
+        img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Bootstrap-Logo.png'
       }, {
         id: 26,
         name: 'HTML5',
