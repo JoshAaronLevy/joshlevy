@@ -23,7 +23,6 @@
               triggers="click hover focus"
               content="View the GitHub repository in a new tab.">
           </b-popover>
-          <!-- <i class="fas fa-code"></i> -->
         </div>
       </div>
     </article>
@@ -38,7 +37,6 @@
           <p>Full CRUD. Find developer videos easily with intuitive filters. Built with Vue.js and MongoDB.</p>
           <a href="https://g90-videos.firebaseapp.com/" target="_blank"><i v-b-tooltip.hover title="View deployed website in a new tab." class="fas fa-link"></i></a>
           <a href="https://github.com/JoshAaronLevy/gvideos-client" target="_blank"><i v-b-tooltip.hover title="View GitHub repository in a new tab." class="fab fa-github"></i></a>
-          <!-- <i class="fas fa-code"></i> -->
         </div>
       </div>
     </article>
@@ -53,7 +51,6 @@
           <p>Full CRUD Web Developer portfolio. Built with Vue.js and PostgreSQL.</p>
           <a href="https://joshlevy.tech/" target="_blank"><i v-b-tooltip.hover title="View deployed website in a new tab." class="fas fa-link"></i></a>
           <a href="https://github.com/JoshAaronLevy/portfolio" target="_blank"><i v-b-tooltip.hover title="View GitHub repository in a new tab." class="fab fa-github"></i></a>
-          <!-- <i class="fas fa-code"></i> -->
         </div>
       </div>
     </article>
@@ -68,7 +65,6 @@
           <p>Find a bad movie to watch. Serve data to end-users with custom API's.</p>
           <a href="https://bad-movie-night.firebaseapp.com/" target="_blank"><i v-b-tooltip.hover title="View deployed website in a new tab." class="fas fa-link"></i></a>
           <a href="https://github.com/JoshAaronLevy/bad-movie-night" target="_blank"><i v-b-tooltip.hover title="View GitHub repository in a new tab." class="fab fa-github"></i></a>
-          <!-- <i class="fas fa-code"></i> -->
         </div>
       </div>
     </article>
@@ -83,7 +79,6 @@
           <p>First experience with React. Created job posting site using state management.</p>
           <a href="https://react-dinosaurs-1.herokuapp.com/" target="_blank"><i v-b-tooltip.hover title="View deployed website in a new tab." class="fas fa-link"></i></a>
           <a href="https://github.com/JoshAaronLevy/react-dinosaurs-1" target="_blank"><i v-b-tooltip.hover title="View GitHub repository in a new tab." class="fab fa-github"></i></a>
-          <!-- <i class="fas fa-code"></i> -->
         </div>
       </div>
     </article>
@@ -98,7 +93,6 @@
           <p>First experience with Angular 6. Created job posting site using state management.</p>
           <a href="https://angular-dinosaurs-one.firebaseapp.com/" target="_blank"><i v-b-tooltip.hover title="View deployed website in a new tab." class="fas fa-link"></i></a>
           <a href="https://github.com/JoshAaronLevy/angular-dinosaurs-one" target="_blank"><i v-b-tooltip.hover title="View GitHub repository in a new tab." class="fab fa-github"></i></a>
-          <!-- <i class="fas fa-code"></i> -->
         </div>
       </div>
     </article>
@@ -113,7 +107,6 @@
           <p>Interactive Calculator made with JavaScript DOM manipulation.</p>
           <a href="https://lovely-calculator.firebaseapp.com/" target="_blank"><i v-b-tooltip.hover title="View deployed website in a new tab." class="fas fa-link"></i></a>
           <a href="https://github.com/JoshAaronLevy/levy-calculator" target="_blank"><i v-b-tooltip.hover title="View GitHub repository in a new tab." class="fab fa-github"></i></a>
-          <!-- <i class="fas fa-code"></i> -->
         </div>
       </div>
     </article>
