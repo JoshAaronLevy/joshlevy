@@ -2,6 +2,31 @@
   <div class="container">
     <div class="row">
       <div class="timeline-centered">
+    <article class="timeline-entry left-aligned">
+      <div class="timeline-entry-inner">
+        <time class="timeline-time" datetime="2014-01-10T03:45"><span>Sep 2018</span></time>
+        <div class="timeline-icon bg-red">
+          <icon name="code" label="Source Code"></icon>
+        </div>
+        <div class="timeline-label">
+          <h2><a href="https://github.com/JoshAaronLevy/posturemom-app/" target="_blank">PostureMom</a></h2>
+          <p>Capstone project. Desktop app created with Vue.js, Electron, Google TensorFlow.js Machine Learning, and Google Cloud Functions.</p>
+          <a href="https://www.youtube.com/watch?v=M1_SJuy5KPI&feature=youtu.be" target="_blank"><i id="linkPopoverPM" class="fab fa-youtube"></i></a>
+          <b-popover target="linkPopoverPM"
+              placement="top"
+              triggers="click hover focus"
+              content="View the live demo.">
+          </b-popover>
+          <a href="https://github.com/JoshAaronLevy/posturemom-app/" target="_blank"><i id="githubPopover2" class="fab fa-github"></i></a>
+          <b-popover target="githubPopover2"
+              placement="top"
+              triggers="click hover focus"
+              content="View the GitHub repository in a new tab.">
+          </b-popover>
+          <!-- <i class="fas fa-code"></i> -->
+        </div>
+      </div>
+    </article>
     <article class="timeline-entry">
       <div class="timeline-entry-inner">
         <time class="timeline-time" datetime="2014-01-10T03:45"><span>Aug 2018</span></time>
