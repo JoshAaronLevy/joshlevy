@@ -42,7 +42,7 @@ exports.seed = function (knex, Promise) {
         name: 'Google TensorFlow',
         type: 'Front/Back End',
         experience: '>1 year',
-        img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Tensorflow-Logo.jpg'
+        img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Tensorflow-Logo.png'
       }, {
         id: 8,
         name: 'PostgreSQL',
