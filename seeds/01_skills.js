@@ -75,108 +75,96 @@ exports.seed = function (knex, Promise) {
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/MySQL-Logo.png'
       }, {
         id: 13,
-        name: 'C#',
-        type: 'Front/Back-End',
+        name: 'GraphQL',
+        type: 'Front-End',
         experience: '>1 year',
-        img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Csharp-Logo.png'
+        img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/GraphQL-Logo.png'
       }, {
         id: 14,
-        name: 'PHP',
-        type: 'Front/Back-End',
-        experience: '1-3 years',
-        img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/PHP-Logo.png'
-      }, {
-        id: 15,
-        name: 'WordPress',
-        type: 'Front/Back-End',
-        experience: '5-7 years',
-        img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/WordPress-Logo.png'
-      }, {
-        id: 16,
         name: 'Knex.js',
         type: 'Back-End',
         experience: '>1 year',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/KnexJS-Logo.png'
       }, {
-        id: 17,
+        id: 15,
         name: 'Mongoose',
         type: 'Back-End',
         experience: '1-3 years',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Mongoose-Logo.png'
       }, {
-        id: 18,
+        id: 16,
         name: 'Passport.js',
         type: 'Back-End',
         experience: '>1 year',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/PassportJS-Logo.png'
       }, {
-        id: 19,
+        id: 17,
         name: 'Stripe',
         type: 'Back-End',
         experience: '>1 year',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Stripe-Logo.png'
       }, {
-        id: 20,
+        id: 18,
         name: 'RESTful API',
         type: 'Back-End',
         experience: '3-5 Years',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/RestAPI-Logo.png'
       }, {
-        id: 21,
+        id: 19,
         name: 'Git',
         type: 'Front/Back-End',
         experience: '5-7 years',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Git-Logo.png'
       }, {
-        id: 22,
+        id: 20,
         name: 'AWS',
         type: 'Back-End',
         experience: '1-3 years',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/AWS-Logo.png'
       }, {
-        id: 23,
+        id: 21,
         name: 'Firebase',
         type: 'Back-End',
         experience: '>1 year',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Firebase-Logo.png'
       }, {
-        id: 24,
+        id: 22,
         name: 'Heroku',
         type: 'Back-End',
         experience: '>1 year',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Heroku-Logo.png'
       }, {
-        id: 25,
+        id: 23,
         name: 'Docker',
         type: 'Back-End',
         experience: '1-3 years',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Docker-Logo.png'
       }, {
-        id: 26,
+        id: 24,
         name: 'Bootstrap 3 & 4',
         type: 'Front-End',
         experience: '5-7 years',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/Bootstrap-Logo.png'
       }, {
-        id: 27,
+        id: 25,
         name: 'HTML5',
         type: 'Front-End',
         experience: '5-7 years',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/HTML5-Logo.png'
       }, {
-        id: 28,
+        id: 26,
         name: 'SASS',
         type: 'Front-End',
         experience: '3-5 years',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/SASS-Logo.png'
       }, {
-        id: 29,
+        id: 27,
         name: 'LESS',
         type: 'Front-End',
         experience: '5-7 years',
         img: 'https://s3-us-west-2.amazonaws.com/joshlevyportfolio/skills/LESS-Logo.png'
       }, {
-        id: 30,
+        id: 28,
         name: 'CSS3',
         type: 'Front-End',
         experience: '5-7 years',

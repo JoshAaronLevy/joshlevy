@@ -2,6 +2,20 @@
   <div class="container">
     <div class="row">
       <div class="timeline-centered">
+    <article class="timeline-entry">
+      <div class="timeline-entry-inner">
+        <time class="timeline-time" datetime="2014-01-10T03:45"><span>Oct 2018</span></time>
+        <div class="timeline-icon bg-red">
+          <icon name="code" label="Source Code"></icon>
+        </div>
+        <div class="timeline-label">
+          <h2><a href="https://vue-fu.com/" target="_blank">Vue Fu</a></h2>
+          <p>A blog about all things web development, with a little extra love for Vue.js.</p>
+          <a href="https://vue-fu.com/" target="_blank"><i v-b-tooltip.hover title="View deployed website in a new tab." class="fas fa-link"></i></a>
+          <a href="https://github.com/JoshAaronLevy/vue-fu" target="_blank"><i v-b-tooltip.hover title="View GitHub repository in a new tab." class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </article>
     <article class="timeline-entry left-aligned">
       <div class="timeline-entry-inner">
         <time class="timeline-time" datetime="2014-01-10T03:45"><span>Sep 2018</span></time>

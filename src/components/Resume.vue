@@ -1,10 +1,10 @@
 <template>
   <div class="resume">
     <div class="d-lg-none">
-      <a class="btn btn-primary btn-lg" href="https://drive.google.com/file/d/1CTQWH7TkKy7nRNZbbFacdrV1Cy6CvL_3/view" target="_blank">View/Download Resume</a>
+      <a class="btn btn-primary btn-lg" href="https://drive.google.com/file/d/1pRCW6wa4TvApHjhYqgIwsLvfPHUAhUOc/view" target="_blank">View/Download Resume</a>
     </div>
     <div class="d-none d-lg-block">
-      <iframe src="https://drive.google.com/file/d/1CTQWH7TkKy7nRNZbbFacdrV1Cy6CvL_3/preview"></iframe>
+      <iframe src="https://drive.google.com/file/d/1pRCW6wa4TvApHjhYqgIwsLvfPHUAhUOc/preview"></iframe>
     </div>
   </div>
 </template>
