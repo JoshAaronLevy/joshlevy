@@ -9,7 +9,7 @@
           <icon name="code" label="Source Code"></icon>
         </div>
         <div class="timeline-label">
-          <h2><a href="https://github.com/JoshAaronLevy/angular-bookstore/" target="_blank">Angular Books</a></h2>
+          <h2><a href="https://angular-bookstore.firebaseapp.com/" target="_blank">Angular Books</a></h2>
           <p>A side project showcasing my 10 favorite books. Built with Angular 6.</p>
           <a href="https://angular-bookstore.firebaseapp.com/" target="_blank"><i v-b-tooltip.hover title="View deployed website in a new tab." class="fas fa-link"></i></a>
           <a href="https://github.com/JoshAaronLevy/angular-bookstore" target="_blank"><i v-b-tooltip.hover title="View GitHub repository in a new tab." class="fab fa-github"></i></a>
