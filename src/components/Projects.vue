@@ -124,20 +124,6 @@
         </div>
       </div>
     </article>
-    <article class="timeline-entry left-aligned">
-      <div class="timeline-entry-inner">
-        <time class="timeline-time" datetime="2014-01-10T03:45"><span>Jun 2018</span></time>
-        <div class="timeline-icon bg-red">
-          <icon name="code" label="Source Code"></icon>
-        </div>
-        <div class="timeline-label">
-          <h2><a href="https://lovely-calculator.firebaseapp.com/" target="_blank">JavaScript Calculator</a></h2>
-          <p>Interactive Calculator made with JavaScript DOM manipulation.</p>
-          <a href="https://lovely-calculator.firebaseapp.com/" target="_blank"><i v-b-tooltip.hover title="View deployed website in a new tab." class="fas fa-link"></i></a>
-          <a href="https://github.com/JoshAaronLevy/levy-calculator" target="_blank"><i v-b-tooltip.hover title="View GitHub repository in a new tab." class="fab fa-github"></i></a>
-        </div>
-      </div>
-    </article>
     <article class="timeline-entry begin">
       <div class="timeline-entry-inner">
         <div class="timeline-icon" style="-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg);">
