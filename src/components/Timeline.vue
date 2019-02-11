@@ -6,21 +6,14 @@
 					<i class="fas fa-code"></i>
 				</div>
 				<div class="cd-timeline__content js-cd-content">
-					<a href="#"><h2>{{ project.name }}</h2></a>
+					<a :href="project.deployedURL"><h2>{{ project.name }}</h2></a>
 					<p>{{ project.snippet }}</p>
+          <a v-if="project.youtubeURL" :href="project.youtubeURL" target="_blank"><i v-b-tooltip.hover title="View the live demo." class="fab fa-youtube"></i></a>
+          <a v-if="project.deployedURL" :href="project.deployedURL" target="_blank"><i v-b-tooltip.hover title="View deployed website in a new tab." class="fas fa-link"></i></a>
+          <a v-if="project.githubURL" :href="project.githubURL" target="_blank"><i v-b-tooltip.hover title="View GitHub repository in a new tab." class="fab fa-github"></i></a>
 					<span class="cd-timeline__date">{{ project.date }}</span>
 				</div>
 			</div>
-      <!-- <div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
-					<i class="fas fa-code"></i>
-				</div>
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Title of section 1</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-					<span class="cd-timeline__date">Jan 14</span>
-				</div>
-			</div> -->
 		</div>
 	</section>
 </template>
@@ -238,6 +231,32 @@ header h1 {
   background: #f0ca45;
 }
 
+.fab {
+  min-width: 18px;
+  min-height: 14px;
+  margin-bottom: 3px;
+  font-size: 22px;
+  margin-left: 7px;
+  color: #AD0001;
+}
+
+.fab:hover {
+  color: #333;
+}
+
+.fas {
+  min-width: 18px;
+  min-height: 14px;
+  margin-bottom: 3px;
+  font-size: 22px;
+  margin-right: 7px;
+  color: #AD0001;
+}
+
+.fas:hover {
+  color: #333;
+}
+
 @media only screen and (min-width: 1170px) {
   .cd-timeline__img {
     width: 50px;
@@ -359,6 +378,16 @@ header h1 {
 @media only screen and (min-width: 768px) {
   .cd-timeline__content h2 {
     font-size: 18px;
+    font-weight: 700;
+    color: #AD0001;
+  }
+  .cd-timeline__content a:hover {
+    color: #333;
+    text-decoration: none !important;
+  }
+  .cd-timeline__content h2:hover {
+    color: #333;
+    text-decoration: none !important;
   }
   .cd-timeline__content p {
     font-size: 16px;

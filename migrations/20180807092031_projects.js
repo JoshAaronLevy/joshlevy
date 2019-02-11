@@ -6,6 +6,7 @@ exports.up = function (knex, Promise) {
     projects.string('snippet');
     projects.text('description');
     projects.string('gifURL');
+    projects.string('youtubeURL');
     projects.string('deployedURL');
     projects.string('githubURL');
   });
