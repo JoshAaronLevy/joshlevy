@@ -8,7 +8,7 @@
 				<div class="cd-timeline__content js-cd-content">
 					<a :href="project.deployedURL"><h2>{{ project.name }}</h2></a>
 					<p>{{ project.snippet }}</p>
-          <a v-if="project.youtubeURL" :href="project.youtubeURL" target="_blank"><i v-b-tooltip.hover title="View the live demo." class="fab fa-youtube"></i></a>
+          <a v-if="project.youtubeURL" :href="project.youtubeURL" target="_blank"><i v-b-tooltip.hover title="View the live demo." class="fab fa-youtube ml-0 mr-7"></i></a>
           <a v-if="project.deployedURL" :href="project.deployedURL" target="_blank"><i v-b-tooltip.hover title="View deployed website in a new tab." class="fas fa-link"></i></a>
           <a v-if="project.githubURL" :href="project.githubURL" target="_blank"><i v-b-tooltip.hover title="View GitHub repository in a new tab." class="fab fa-github"></i></a>
 					<span class="cd-timeline__date">{{ project.date }}</span>
@@ -24,7 +24,7 @@ export default {
   data() {
     return {
       projects: [],
-      projectsURL: "https://joshlevy.herokuapp.com/projects"
+      projectsURL: "https://joshlevyportfolio.herokuapp.com/projects"
     };
   },
   mounted() {
@@ -255,6 +255,14 @@ header h1 {
 
 .fas:hover {
   color: #333;
+}
+
+.ml-0 {
+  margin-left: 0px !important;
+}
+
+.mr-7 {
+  margin-right: 7px !important;
 }
 
 @media only screen and (min-width: 1170px) {

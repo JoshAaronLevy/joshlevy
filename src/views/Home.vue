@@ -9,11 +9,11 @@
     <div id="skills" class="scroll-tag"></div>
     <h2 class="section-heading">Skills</h2>
     <Skills/>
+    <!-- <div id="projects" class="scroll-tag"></div>
+    <h2 class="section-heading">Projects</h2>
+    <Projects/> -->
     <div id="projects" class="scroll-tag"></div>
     <h2 class="section-heading">Projects</h2>
-    <Projects/>
-    <div id="timeline" class="scroll-tag"></div>
-    <h2 class="section-heading">Timeline</h2>
     <Timeline/>
     <div id="workHistory" class="scroll-tag"></div>
     <h2 class="section-heading">Work History</h2>
@@ -36,11 +36,11 @@ import Header from '@/components/Header.vue';
 import Hero from '@/components/Hero.vue';
 import AboutMe from '@/components/AboutMe.vue';
 import Skills from '@/components/Skills.vue';
-import Projects from '@/components/Projects.vue';
+// import Projects from '@/components/Projects.vue';
+import Timeline from '@/components/Timeline.vue';
 import WorkHistory from '@/components/WorkHistory.vue';
 import Education from '@/components/Education.vue';
 import Resume from '@/components/Resume.vue';
-import Timeline from '@/components/Timeline.vue';
 // import NewPost from '@/components/NewPost.vue';
 import Contact from '@/components/Contact.vue';
 import Footer from '@/components/Footer.vue';
@@ -52,12 +52,12 @@ export default {
     Hero,
     AboutMe,
     Skills,
-    Projects,
+    // Projects,
+    Timeline,
     WorkHistory,
     Education,
     Resume,
     Contact,
-    Timeline,
     // NewPost,
     Footer
   }

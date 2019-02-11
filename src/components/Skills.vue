@@ -26,7 +26,7 @@ export default {
   data() {
     return {
       skills: [],
-      skillsURL: "https://joshlevy.herokuapp.com/skills"
+      skillsURL: "https://joshlevyportfolio.herokuapp.com/skills"
     };
   },
   mounted() {
