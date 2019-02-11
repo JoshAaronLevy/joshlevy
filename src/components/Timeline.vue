@@ -1,17 +1,17 @@
 <template>
   <section class="cd-timeline js-cd-timeline">
 		<div class="cd-timeline__container">
-			<div class="cd-timeline__block js-cd-block">
+			<div class="cd-timeline__block js-cd-block" v-for="project in projects" :key="project.id">
 				<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
 					<i class="fas fa-code"></i>
 				</div>
 				<div class="cd-timeline__content js-cd-content">
-					<a href="#"><h2>Title of section 1</h2></a>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
-					<span class="cd-timeline__date">Jan 14</span>
+					<a href="#"><h2>{{ project.name }}</h2></a>
+					<p>{{ project.snippet }}</p>
+					<span class="cd-timeline__date">{{ project.date }}</span>
 				</div>
 			</div>
-      <div class="cd-timeline__block js-cd-block">
+      <!-- <div class="cd-timeline__block js-cd-block">
 				<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
 					<i class="fas fa-code"></i>
 				</div>
@@ -20,7 +20,7 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
 					<span class="cd-timeline__date">Jan 14</span>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</section>
 </template>
