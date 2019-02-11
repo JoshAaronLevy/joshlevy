@@ -12,6 +12,9 @@
     <div id="projects" class="scroll-tag"></div>
     <h2 class="section-heading">Projects</h2>
     <Projects/>
+    <div id="timeline" class="scroll-tag"></div>
+    <h2 class="section-heading">Timeline</h2>
+    <Timeline/>
     <div id="workHistory" class="scroll-tag"></div>
     <h2 class="section-heading">Work History</h2>
     <WorkHistory/>
@@ -37,6 +40,7 @@ import Projects from '@/components/Projects.vue';
 import WorkHistory from '@/components/WorkHistory.vue';
 import Education from '@/components/Education.vue';
 import Resume from '@/components/Resume.vue';
+import Timeline from '@/components/Timeline.vue';
 // import NewPost from '@/components/NewPost.vue';
 import Contact from '@/components/Contact.vue';
 import Footer from '@/components/Footer.vue';
@@ -53,6 +57,7 @@ export default {
     Education,
     Resume,
     Contact,
+    Timeline,
     // NewPost,
     Footer
   }

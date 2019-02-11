@@ -94,7 +94,7 @@
     align-items: center;
     text-align: center;
     color: white;
-    background-image: url('../assets/javascript-heading.png');
+    background-image: url('../assets/javascript-sample.png');
     background-size: 100%;
     background-position: center center;
     background-repeat: no-repeat;
