@@ -6,7 +6,7 @@
 					<i class="fas fa-code"></i>
 				</div>
 				<div class="cd-timeline__content js-cd-content">
-					<a :href="project.deployedURL"><h2>{{ project.name }}</h2></a>
+					<a :href="project.deployedURL" target="_blank"><h2>{{ project.name }}</h2></a>
 					<p>{{ project.snippet }}</p>
           <a v-if="project.youtubeURL" :href="project.youtubeURL" target="_blank"><i v-b-tooltip.hover title="View the live demo." class="fab fa-youtube ml-0 mr-7"></i></a>
           <a v-if="project.deployedURL" :href="project.deployedURL" target="_blank"><i v-b-tooltip.hover title="View deployed website in a new tab." class="fas fa-link"></i></a>
