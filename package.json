@@ -28,7 +28,7 @@
     "dotenv": "^6.0.0",
     "element-ui": "^2.4.6",
     "google-fonts-webpack-plugin": "^0.4.4",
-    "highlight.js": "^9.12.0",
+    "highlight.js": "^10.4.1",
     "jquery": "^3.3.1",
     "npm": "^6.4.1",
     "perfect-scrollbar": "^1.4.0",
